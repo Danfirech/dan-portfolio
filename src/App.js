@@ -1,6 +1,7 @@
 import react from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
+import ProfilePic from "./components/ProfilePic";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/projects" />
         <Route path="/about" />
       </Routes>
+      <ProfilePic />
     </Router>
   );
 }
