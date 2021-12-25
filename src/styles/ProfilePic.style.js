@@ -16,5 +16,7 @@ export const LeftContainer = styled.div`
 export const RightContainer = styled.div`
   height: 500px;
   width: 40%;
-  background-color: #b8df10;
+  background-color: #ccf281;
 `;
+
+// #f9f9f9

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export const NavbarContainer = styled.nav`
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: black;
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
@@ -13,17 +12,16 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const LeftContainer = styled.div`
-  flex: 70%;
+  flex: 60%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  background-color: #390879;
 `;
 
 export const RightContainer = styled.div`
-  flex: 30%;
+  flex: 40%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -42,8 +40,10 @@ export const NavbarLink = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
+  color: #ccf281;
   @media (max-width: 700px) {
     display: none;
+    color: #ccf281;
   }
 `;
 
@@ -53,6 +53,7 @@ export const NavbarLinkExtended = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
+  color: #ccf281;
 `;
 
 export const Logo = styled.img`
@@ -80,5 +81,6 @@ export const NavbarExtendedContainer = styled.div`
   align-items: center;
   @media (min-width: 700px) {
     display: none;
+    color: #ccf281;
   }
 `;
