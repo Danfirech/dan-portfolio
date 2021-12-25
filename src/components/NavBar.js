@@ -6,8 +6,9 @@ import {
   NavbarInnerContainer,
   NavbarExtendedContainer,
   NavbarLinkContainer,
+  NavbarLink,
+  OpenLinksButton,
 } from "../styles/Navbar.style";
-import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -15,7 +16,10 @@ function NavBar() {
       <NavbarInnerContainer>
         <Leftcontainer>
           <NavbarLinkContainer>
-            <Link to="/">Home</Link>
+            <NavbarLink to="/">Home</NavbarLink>
+            <NavbarLink to="/projects">Projects</NavbarLink>
+            <NavbarLink to="/about">About</NavbarLink>
+            <OpenLinksButton>&#8801;</OpenLinksButton>
           </NavbarLinkContainer>
         </Leftcontainer>
         <Rightcontainer />
