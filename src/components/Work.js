@@ -1,4 +1,5 @@
 import React from "react";
+import WorkBox from "./WorkBox";
 
 import {
   WorkPageContainer,
@@ -10,9 +11,15 @@ import {
 function ProfilePic() {
   return (
     <WorkPageContainer>
-      <WorkLeftContainer></WorkLeftContainer>
-      <WorkCenterContainer></WorkCenterContainer>
-      <WorkRightContainer></WorkRightContainer>
+      <WorkLeftContainer>
+        <WorkBox />
+      </WorkLeftContainer>
+      <WorkCenterContainer>
+        <WorkBox />
+      </WorkCenterContainer>
+      <WorkRightContainer>
+        <WorkBox />
+      </WorkRightContainer>
     </WorkPageContainer>
   );
 }
