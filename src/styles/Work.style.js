@@ -9,8 +9,7 @@ export const WorkPageContainer = styled.div`
 
 export const CardBox = styled.div`
   height: 340px;
-  width: 300px;
-
+  width: 100%;
   background-color: #ccf281;
 `;
 
@@ -20,6 +19,7 @@ export const WorkLeftContainer = styled.div`
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;
+  padding-right: 40px;
 `;
 
 export const WorkCenterContainer = styled.div`
@@ -28,6 +28,7 @@ export const WorkCenterContainer = styled.div`
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;
+  padding-right: 40px;
 `;
 
 export const WorkRightContainer = styled.div`
@@ -36,4 +37,5 @@ export const WorkRightContainer = styled.div`
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;
+  padding-right: 40px;
 `;
