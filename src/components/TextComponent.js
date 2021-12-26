@@ -1,9 +1,13 @@
 import React from "react";
 
-import { CardBox } from "../styles/Work.style";
+import { PageContainer, Text } from "../styles/Text.style";
 
-function WorkBox() {
-  return <CardBox></CardBox>;
+function TextComponent() {
+  return (
+    <PageContainer>
+      <Text>My Work</Text>
+    </PageContainer>
+  );
 }
 
-export default WorkBox;
+export default TextComponent;

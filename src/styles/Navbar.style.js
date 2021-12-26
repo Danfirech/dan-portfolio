@@ -22,6 +22,7 @@ export const RightContainer = styled.div`
   flex: 40%;
   display: flex;
   justify-content: flex-end;
+  background-color: #ccf281;
 `;
 
 export const NavbarInnerContainer = styled.div`

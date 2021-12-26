@@ -6,6 +6,7 @@ import {
   WorkLeftContainer,
   WorkCenterContainer,
   WorkRightContainer,
+  Divider,
 } from "../styles/Work.style";
 
 function ProfilePic() {
@@ -14,9 +15,11 @@ function ProfilePic() {
       <WorkLeftContainer>
         <WorkBox />
       </WorkLeftContainer>
+      <Divider />
       <WorkCenterContainer>
         <WorkBox />
       </WorkCenterContainer>
+      <Divider />
       <WorkRightContainer>
         <WorkBox />
       </WorkRightContainer>

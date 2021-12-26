@@ -18,5 +18,3 @@ export const RightContainer = styled.div`
   width: 40%;
   background-color: #ccf281;
 `;
-
-// #f9f9f9
