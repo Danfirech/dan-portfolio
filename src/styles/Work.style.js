@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const WorkPageContainer = styled.div`
   display: flex;
   align-items: row;
-  height: 500px;
+  height: 400px;
   width: 100%;
 `;
 
 export const CardBox = styled.div`
-  height: 340px;
+  height: 380px;
   width: 100%;
   background-color: #f9f9f9;
 `;
 
 export const WorkLeftContainer = styled.div`
   height: 400px;
-  width: 32%;
+  width: 33.3%;
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;
@@ -23,15 +23,15 @@ export const WorkLeftContainer = styled.div`
 `;
 
 export const Divider = styled.div`
-  width: 0.2%;
+  width: 0.1%;
   background-color: #390879;
-  height: 340px;
+  height: 400px;
   padding-top: 100px;
 `;
 
 export const WorkCenterContainer = styled.div`
   height: 400px;
-  width: 32%;
+  width: 33.3%;
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;
@@ -40,7 +40,7 @@ export const WorkCenterContainer = styled.div`
 
 export const WorkRightContainer = styled.div`
   height: 400px;
-  width: 32%;
+  width: 33.3%;
   background-color: #f0f1f4;
   padding-left: 40px;
   padding-top: 40px;

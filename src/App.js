@@ -4,6 +4,7 @@ import Navbar from "./components/NavBar";
 import ProfilePic from "./components/ProfilePic";
 import TextComponent from "./components/TextComponent";
 import Work from "./components/Work";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ProfilePic />
       <TextComponent />
       <Work />
+      <AboutMe />
     </Router>
   );
 }
