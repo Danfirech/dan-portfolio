@@ -7,13 +7,14 @@ import {
   WorkCenterContainer,
   WorkRightContainer,
   Divider,
+  WorkTop,
 } from "../styles/Work.style";
 
 function ProfilePic() {
   return (
     <WorkPageContainer>
       <WorkLeftContainer>
-        <WorkBox />
+        <WorkBox></WorkBox>
       </WorkLeftContainer>
       <Divider />
       <WorkCenterContainer>
