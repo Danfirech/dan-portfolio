@@ -1,9 +1,20 @@
 import React from "react";
 
-import { AboutMeContainer } from "../styles/AboutMe.Style";
+import {
+  AboutMeContainer,
+  LeftContainer,
+  RightContainer,
+  CenterContainer,
+} from "../styles/AboutMe.Style";
 
 function AboutMe() {
-  return <AboutMeContainer></AboutMeContainer>;
+  return (
+    <AboutMeContainer>
+      <LeftContainer />
+      <CenterContainer />
+      <RightContainer />
+    </AboutMeContainer>
+  );
 }
 
 export default AboutMe;

@@ -13,7 +13,6 @@ function HomePage() {
       <ProfilePic />
       <TextComponent />
       <Work />
-      <AboutMe />
     </div>
   );
 }
