@@ -13,3 +13,9 @@ export const Text = styled.div`
   padding-top: 60px;
   font-size: 40px;
 `;
+
+export const Test = styled.div`
+  width: 100%;
+  height: 50%;
+  background-color: black;
+`;

@@ -9,10 +9,3 @@ export const DansButton = styled.div`
   align-items: center;
   margin-top: 20%;
 `;
-
-const HoverMessage = styled.div`
-  display: none;
-  ${Container}:hover & {
-    display: block;
-  }
-`;
