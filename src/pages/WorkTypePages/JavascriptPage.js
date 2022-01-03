@@ -1,18 +1,35 @@
 import React from "react";
 import Navbar from "../../components/NavBar";
-import { WorkPageWhole } from "../../styles/WorkPages.Style";
+import {
+  WorkPageWhole,
+  TextStrip,
+  WorkCenterContainer,
+  WorkLeftContainer,
+  WorkRightContainer,
+  WholePage,
+  WorkBottomContainer,
+  WorkTopContainer,
+  WorkMiddleContainer,
+} from "../../styles/WorkPages.Style";
 
-function AboutMe() {
+function JavascriptPage() {
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
       <div>
-        <WorkPageWhole />
+        <Navbar />
+        <TextStrip />
+        <WorkPageWhole>
+          <WorkLeftContainer />
+          <WorkCenterContainer>
+            <WorkTopContainer />
+            <WorkMiddleContainer />
+            <WorkBottomContainer />
+          </WorkCenterContainer>
+          <WorkRightContainer />
+        </WorkPageWhole>
       </div>
     </>
   );
 }
 
-export default AboutMe;
+export default JavascriptPage;
