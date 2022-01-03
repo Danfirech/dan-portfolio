@@ -10,10 +10,9 @@ export const WorkPageContainer = styled.div`
 export const CardBox = styled.div`
   display: flex;
   flex-direction: column;
-
   height: 380px;
-  width: 100%;
-  background-color: #f9f9f9;
+  width: 80%;
+  background-color: black;
 `;
 
 export const WorkLeftContainer = styled.div`
@@ -21,9 +20,8 @@ export const WorkLeftContainer = styled.div`
   height: 400px;
   width: 33.3%;
   background-color: #f0f1f4;
-  padding-left: 40px;
+  justify-content: center;
   padding-top: 40px;
-  padding-right: 40px;
 `;
 
 export const Divider = styled.div`
@@ -38,9 +36,8 @@ export const WorkCenterContainer = styled.div`
   height: 400px;
   width: 33.3%;
   background-color: #f0f1f4;
-  padding-left: 40px;
+  justify-content: center;
   padding-top: 40px;
-  padding-right: 40px;
 `;
 
 export const WorkRightContainer = styled.div`
@@ -48,9 +45,8 @@ export const WorkRightContainer = styled.div`
   height: 400px;
   width: 33.3%;
   background-color: #f0f1f4;
-  padding-left: 40px;
+  justify-content: center;
   padding-top: 40px;
-  padding-right: 40px;
 `;
 
 export const WorkTop = styled.div`

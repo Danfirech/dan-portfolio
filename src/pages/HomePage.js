@@ -9,11 +9,16 @@ import AboutMe from "../components/AboutMe";
 
 function HomePage() {
   return (
-    <div>
-      <ProfilePic />
-      <TextComponent />
-      <Work />
-    </div>
+    <>
+      <nav>
+        <Navbar />
+      </nav>
+      <div>
+        <ProfilePic />
+        <TextComponent />
+        <Work />
+      </div>
+    </>
   );
 }
 

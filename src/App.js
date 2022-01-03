@@ -14,22 +14,21 @@ import { WorkPageContainer } from "./styles/Work.style";
 import HomePage from "./pages/HomePage";
 import AboutMePage from "./pages/AboutMePage";
 import WorkPage from "./pages/WorkPage";
+import JavascriptPage from "./pages/WorkTypePages/JavascriptPage";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route exact path="/work" element={<WorkPage />} />
-        <Route exact path="/home" element={<HomePage />} />
-        <Route exact path="/about" element={<AboutMePage />} />
-      </Routes>
-      {/* <ProfilePic />
-      <TextComponent />
-      <Work />
-      <AboutMe /> */}
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route exact path="/work" element={<WorkPage />} />
+          <Route exact path="/home" element={<HomePage />} />
+          <Route exact path="/about" element={<AboutMePage />} />
+          <Route exact path="/js" element={<JavascriptPage />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
