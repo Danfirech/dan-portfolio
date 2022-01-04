@@ -13,7 +13,7 @@ export const BoxContainerTop = styled.div`
   flex-direction: row;
   height: 300px;
   width: 100%;
-  background-color: Pink;
+  background-color: #bfc9d7;
 `;
 
 export const BoxContainerCenter = styled.div`

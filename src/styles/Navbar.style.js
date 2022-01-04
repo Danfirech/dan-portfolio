@@ -15,14 +15,14 @@ export const LeftContainer = styled.div`
   flex: 60%;
   display: flex;
   align-items: center;
-  background-color: #390879;
+  background-color: #011936ff;
 `;
 
 export const RightContainer = styled.div`
   flex: 40%;
   display: flex;
   justify-content: flex-end;
-  background-color: #ccf281;
+  background-color: #f9dc5cff;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -41,10 +41,10 @@ export const NavbarLink = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
-  color: #ccf281;
+  color: #f9dc5cff;
   @media (max-width: 700px) {
     display: none;
-    color: #ccf281;
+    color: #f9dc5cff;
   }
 `;
 
@@ -82,6 +82,6 @@ export const NavbarExtendedContainer = styled.div`
   align-items: center;
   @media (min-width: 700px) {
     display: none;
-    color: #ccf281;
+    color: #f9dc5cff;
   }
 `;

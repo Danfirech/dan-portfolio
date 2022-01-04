@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
-
+import { SiJavascript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 import { NavbarLink } from "../styles/Navbar.style";
 
 import {
@@ -25,7 +26,9 @@ function ProfilePic() {
       <WorkLeftContainer>
         <CardBox>
           <WorkTop>
-            <WorkText>JavaScript </WorkText>
+            <WorkText>
+              <SiJavascript color="yellow" fontSize="2.5em" />
+            </WorkText>
           </WorkTop>
           <WorkBottom>
             {/* <DansButton onClick={() => setIsToggled(!isToggled)}>
@@ -40,7 +43,7 @@ function ProfilePic() {
       <WorkCenterContainer>
         <CardBox>
           <WorkTop>
-            <WorkText>Landing Pages</WorkText>
+            <FaReact color="Blue" fontSize="2.5em" />
           </WorkTop>
           <WorkBottom>
             <NavbarLink to="/lp">Landing Pages</NavbarLink>
@@ -51,7 +54,7 @@ function ProfilePic() {
       <WorkRightContainer>
         <CardBox>
           <WorkTop>
-            <WorkText>React Native</WorkText>
+            <FaReact color="Blue" fontSize="2.5em" />
           </WorkTop>
           <WorkBottom>
             <NavbarLink to="/js">Test 3</NavbarLink>
