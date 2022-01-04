@@ -54,6 +54,8 @@ export const WorkTop = styled.div`
   background-color: black;
   height: 50%;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const WorkBottom = styled.div`
@@ -62,4 +64,9 @@ export const WorkBottom = styled.div`
   height: 50%;
   width: 100%;
   justify-content: center;
+`;
+
+export const WorkText = styled.div`
+  color: white;
+  font-weight: 400px;
 `;

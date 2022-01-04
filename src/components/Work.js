@@ -13,6 +13,7 @@ import {
   WorkTop,
   WorkBottom,
   CardBox,
+  WorkText,
 } from "../styles/Work.style";
 import { DansButton } from "../styles/ButtonOne.Style";
 
@@ -23,7 +24,9 @@ function ProfilePic() {
     <WorkPageContainer>
       <WorkLeftContainer>
         <CardBox>
-          <WorkTop></WorkTop>
+          <WorkTop>
+            <WorkText>JavaScript </WorkText>
+          </WorkTop>
           <WorkBottom>
             {/* <DansButton onClick={() => setIsToggled(!isToggled)}>
               Check it out
@@ -36,7 +39,9 @@ function ProfilePic() {
       <Divider />
       <WorkCenterContainer>
         <CardBox>
-          <WorkTop></WorkTop>
+          <WorkTop>
+            <WorkText>Landing Pages</WorkText>
+          </WorkTop>
           <WorkBottom>
             <NavbarLink to="/lp">Landing Pages</NavbarLink>
           </WorkBottom>
@@ -45,7 +50,9 @@ function ProfilePic() {
       <Divider />
       <WorkRightContainer>
         <CardBox>
-          <WorkTop></WorkTop>
+          <WorkTop>
+            <WorkText>React Native</WorkText>
+          </WorkTop>
           <WorkBottom>
             <NavbarLink to="/js">Test 3</NavbarLink>
           </WorkBottom>

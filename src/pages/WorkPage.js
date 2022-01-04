@@ -16,9 +16,6 @@ function WorkPage() {
         <BoxContainerCenter></BoxContainerCenter>
         <BoxContainerBottom></BoxContainerBottom>
       </div>
-      <div>
-        <Footer />
-      </div>
     </>
   );
 }
