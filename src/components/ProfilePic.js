@@ -8,11 +8,14 @@ import {
   TextBoxOne,
   CenterContainer,
 } from "../styles/ProfilePic.style";
+import Spinning from "../components/video/Spinning.mp4";
+import { Video } from "../styles/ProfilePic.style";
 
 function ProfilePic() {
   return (
     <PageContainer>
       <LeftContainer>
+        <Video />
         <TextBoxOne>
           <h1 style={{ fontSize: 50 }}>Designer by day Dancer by night....</h1>
           <h1 style={{ fontSize: 12 }}>

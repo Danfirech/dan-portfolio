@@ -24,7 +24,7 @@ export const RightContainer = styled.div`
   height: 500px;
   width: 40%;
   background-color: #f9dc5cff;
-  @media (min-width: !700px) {
+  @media (max-width: 1060px) {
     background-color: #011936ff;
   }
 `;
@@ -34,7 +34,7 @@ export const Image = styled.img`
   height: 25%;
   padding-left: 430px;
   position: absolute;
-  @media (min-width: !700px) {
+  @media (max-width: 1060px) {
     display: none;
   }
 `;
@@ -46,4 +46,7 @@ export const TextBoxOne = styled.div`
   background: none;
   margin-left: 300px;
   position: absolute;
+  @media (max-width: 1060px) {
+    margin-left: 100px;
+
 `;
