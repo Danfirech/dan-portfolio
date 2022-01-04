@@ -16,7 +16,6 @@ function JavascriptPage() {
   return (
     <>
       <div>
-        <Navbar />
         <TextStrip />
         <WorkPageWhole>
           <WorkLeftContainer />

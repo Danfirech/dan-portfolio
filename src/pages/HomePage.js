@@ -6,13 +6,11 @@ import Work from "../components/Work";
 import ProfilePic from "../components/ProfilePic";
 import TextComponent from "../components/TextComponent";
 import AboutMe from "../components/AboutMe";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
       <div>
         <ProfilePic />
         <TextComponent />

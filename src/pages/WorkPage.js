@@ -5,18 +5,19 @@ import { BoxContainerCenter } from "../styles/WorkBoxes.Style";
 import { BoxContainerBottom } from "../styles/WorkBoxes.Style";
 import { TextBox } from "../styles/WorkBoxes.Style";
 import Navbar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 function WorkPage() {
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
       <div>
         <TextBox />
         <BoxContainerTop></BoxContainerTop>
         <BoxContainerCenter></BoxContainerCenter>
         <BoxContainerBottom></BoxContainerBottom>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

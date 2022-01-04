@@ -38,7 +38,7 @@ function ProfilePic() {
         <CardBox>
           <WorkTop></WorkTop>
           <WorkBottom>
-            <NavbarLink to="/js">Test 2</NavbarLink>
+            <NavbarLink to="/lp">Landing Pages</NavbarLink>
           </WorkBottom>
         </CardBox>
       </WorkCenterContainer>
