@@ -7,7 +7,7 @@ export const PageContainer = styled.div`
 `;
 
 export const Text = styled.div`
-  color: #390879;
+  color: #011936ff;
   display: flex;
   justify-content: center;
   padding-top: 60px;

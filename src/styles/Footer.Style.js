@@ -2,44 +2,46 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   display: flex;
-  height: 300px;
+  height: 150px;
   width: 100%;
-  background-color: blue;
-  padding-top: 90px;
 `;
 
 export const FooterLeftContainer = styled.div`
   display: flex;
-  height: 300px;
+  height: 150px;
   width: 33.3%;
-  background-color: #f0f1f4;
+  background-color: #f9dc5cff;
   justify-content: center;
-  padding-top: 70px;
 `;
 
 export const FooterCenterContainer = styled.div`
   display: flex;
-  height: 300px;
+  height: 150px;
   width: 33.3%;
-  background-color: black;
+  background-color: #f9dc5cff;
   justify-content: center;
-  padding-top: 40px;
+
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 170px;
+  padding-right: 170px;
 `;
 
 export const FooterRightContainer = styled.div`
   display: flex;
-  height: 300px;
+  height: 150px;
   width: 33.3%;
-  background-color: #f0f1f4;
+  background-color: #f9dc5cff;
   justify-content: center;
-  padding-top: 40px;
+  /* padding-top: 40px; */
+  justify-content: center;
 `;
 
 export const CardBox = styled.div`
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 150px;
   width: 80%;
-  background-color: grey;
+  background-color: #f9dc5cff;
   justify-content: center;
 `;
