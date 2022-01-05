@@ -31,3 +31,19 @@ export const BoxContainerBottom = styled.div`
   width: 100%;
   background-color: Pink;
 `;
+
+export const WorkBoxTop = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 100%;
+  background-color: blue;
+`;
+
+export const WorkBoxBottom = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+  background-color: green;
+`;

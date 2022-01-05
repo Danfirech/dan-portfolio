@@ -95,5 +95,8 @@ export const WorkbarLink = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
-  color: #f9dc5cff;
+  color: #011936ff;
+  border: solid;
+  height: 30px;
+  padding: 5px;
 `;

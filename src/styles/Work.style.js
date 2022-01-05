@@ -56,18 +56,27 @@ export const WorkRightContainer = styled.div`
 export const WorkTop = styled.div`
   display: flex;
   background-color: #f0f1f4;
-  height: 50%;
+  height: 33.33%;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  padding-left: 40px;
+`;
+
+export const WorkCenter = styled.div`
+  display: flex;
+  background-color: #f0f1f4;
+  height: 33.33%;
+  width: 100%;
+  padding-left: 30px;
 `;
 
 export const WorkBottom = styled.div`
   display: flex;
   background-color: #f0f1f4;
-  height: 50%;
+  height: 33.33%;
   width: 100%;
-  justify-content: center;
+  padding-left: 20px;
+  padding-top: 30px;
 `;
 
 export const WorkText = styled.div`
