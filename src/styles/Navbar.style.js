@@ -88,3 +88,12 @@ export const NavbarExtendedContainer = styled.div`
     color: #f9dc5cff;
   }
 `;
+
+export const WorkbarLink = styled(Link)`
+  color: white;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  color: #f9dc5cff;
+`;

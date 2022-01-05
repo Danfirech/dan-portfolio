@@ -17,8 +17,8 @@ function Footer() {
       <FooterContainer>
         <FooterLeftContainer>
           <CardBox>
-            <h1>DanPossehlDesign</h1>
-            <h1>2021</h1>
+            <h1 style={{ fontSize: 15 }}>DanPossehlDesign</h1>
+            <h1 style={{ fontSize: 15 }}>2021</h1>
           </CardBox>
         </FooterLeftContainer>
         <FooterCenterContainer>
@@ -34,8 +34,8 @@ function Footer() {
         </FooterCenterContainer>
         <FooterRightContainer>
           <CardBox>
-            <h1>DanielPossehl@hotmail.com</h1>
-            <h1>616-821-0139</h1>
+            <h1 style={{ fontSize: 15 }}>DanielPossehl@hotmail.com</h1>
+            <h1 style={{ fontSize: 15 }}>616-821-0139</h1>
           </CardBox>
         </FooterRightContainer>
       </FooterContainer>

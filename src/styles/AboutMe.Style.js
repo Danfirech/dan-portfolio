@@ -12,7 +12,7 @@ export const LeftContainer = styled.div`
   display: flex;
   height: 100vh;
   width: 50%;
-  background-color: pink;
+  background-color: #011936ff;
 `;
 
 // export const CenterContainer = styled.div`

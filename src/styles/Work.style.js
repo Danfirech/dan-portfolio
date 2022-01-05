@@ -30,6 +30,9 @@ export const Divider = styled.div`
   background-color: #011936ff;
   height: 400px;
   padding-top: 100px;
+  @media (max-width: 1060px) {
+    display: none;
+  }
 `;
 
 export const WorkCenterContainer = styled.div`

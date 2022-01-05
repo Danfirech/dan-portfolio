@@ -3,7 +3,7 @@ import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { NavbarLink } from "../styles/Navbar.style";
+import { WorkbarLink } from "../styles/Navbar.style";
 
 import {
   WorkPageContainer,
@@ -35,7 +35,7 @@ function ProfilePic() {
               Check it out
             </DansButton>
             {isToggled && <JavascriptPage />} */}
-            <NavbarLink to="/js">Javasript</NavbarLink>
+            <WorkbarLink to="/js">Javasript</WorkbarLink>
           </WorkBottom>
         </CardBox>
       </WorkLeftContainer>
@@ -46,7 +46,7 @@ function ProfilePic() {
             <FaReact color="Blue" fontSize="2.5em" />
           </WorkTop>
           <WorkBottom>
-            <NavbarLink to="/lp">Landing Pages</NavbarLink>
+            <WorkbarLink to="/lp">Landing Pages</WorkbarLink>
           </WorkBottom>
         </CardBox>
       </WorkCenterContainer>
@@ -57,7 +57,7 @@ function ProfilePic() {
             <FaReact color="Blue" fontSize="2.5em" />
           </WorkTop>
           <WorkBottom>
-            <NavbarLink to="/js">Test 3</NavbarLink>
+            <WorkbarLink to="/js">Test 3</WorkbarLink>
           </WorkBottom>
         </CardBox>
       </WorkRightContainer>

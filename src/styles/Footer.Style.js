@@ -44,4 +44,5 @@ export const CardBox = styled.div`
   width: 80%;
   background-color: #f9dc5cff;
   justify-content: center;
+  align-items: center;
 `;

@@ -31,7 +31,6 @@ function App() {
           <Route exact path="/js" element={<JavascriptPage />} />
           <Route exact path="/lp" element={<LandingPage />} />
         </Routes>
-        <AboutMe />
         <Footer />
       </Router>
     </>
