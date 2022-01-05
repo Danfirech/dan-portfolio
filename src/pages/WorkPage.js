@@ -1,18 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { BoxContainerTop } from "../styles/WorkBoxes.Style";
-import { BoxContainerCenter } from "../styles/WorkBoxes.Style";
-import { BoxContainerBottom } from "../styles/WorkBoxes.Style";
 import { TextBox } from "../styles/WorkBoxes.Style";
+import { WorkBoxTop } from "../styles/WorkBoxes.Style";
+import { WorkBoxBottom } from "../styles/WorkBoxes.Style";
 
 function WorkPage() {
   return (
     <>
       <div>
-        <TextBox />
-        <BoxContainerTop></BoxContainerTop>
-        <BoxContainerCenter></BoxContainerCenter>
-        <BoxContainerBottom></BoxContainerBottom>
+        <WorkBoxTop />
+        <WorkBoxBottom />
+        <WorkBoxTop />
+        <WorkBoxBottom />
+        <WorkBoxTop />
+        <WorkBoxBottom />
       </div>
     </>
   );

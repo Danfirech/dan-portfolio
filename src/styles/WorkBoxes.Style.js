@@ -8,42 +8,18 @@ export const TextBox = styled.div`
   background-color: white;
 `;
 
-export const BoxContainerTop = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  width: 100%;
-  background-color: #bfc9d7;
-`;
-
-export const BoxContainerCenter = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  width: 100%;
-  background-color: Black;
-`;
-
-export const BoxContainerBottom = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  width: 100%;
-  background-color: Pink;
-`;
-
 export const WorkBoxTop = styled.div`
   display: flex;
   flex-direction: row;
-  height: 20%;
+  height: 130px;
   width: 100%;
-  background-color: blue;
+  background-color: white;
 `;
 
 export const WorkBoxBottom = styled.div`
   display: flex;
   flex-direction: row;
-  height: 80%;
+  height: 230px;
   width: 100%;
-  background-color: green;
+  background-color: blue;
 `;
