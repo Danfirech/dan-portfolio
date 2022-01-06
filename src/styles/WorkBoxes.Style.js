@@ -4,22 +4,20 @@ export const TextBox = styled.div`
   display: flex;
   flex-direction: row;
   height: 100px;
-  width: 100%;
+  width: 100vw;
   background-color: white;
 `;
 
 export const WorkBoxWhole = styled.div`
   display: flex;
   height: 100vh;
-  width: 100vw;
-  background-color: white;
-  justify-content: space-between;
+  width: 100%;
 `;
 
 export const WorkBoxTop = styled.div`
   display: flex;
   height: 130px;
-  width: 100vh;
+  width: 100%;
   background-color: white;
 `;
 
@@ -38,4 +36,18 @@ export const ContentBox = styled.div`
   background-color: grey;
   margin-left: 80px;
   margin-right: 80px;
+`;
+
+export const LeftBox = styled.div`
+  display: flex;
+  height: 130px;
+  width: 100%;
+  background-color: pink;
+`;
+
+export const RightBox = styled.div`
+  display: flex;
+  height: 130px;
+  width: 100%;
+  background-color: black;
 `;

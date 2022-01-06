@@ -8,6 +8,7 @@ import AboutMe from "../components/AboutMe";
 import Footer from "../components/Footer";
 import { Whole } from "../styles/Work.style";
 import Work2 from "../components/Work2";
+import WorkPage2 from "../pages/WorkPage2";
 
 function HomePage() {
   return (
@@ -17,7 +18,7 @@ function HomePage() {
           <ProfilePic />
           <TextComponent />
           <Work2 />
-          <Work />
+          {/* <Work /> */}
           <AboutMe />
           <Footer />
         </div>
