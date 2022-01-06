@@ -4,7 +4,7 @@ export const WorkPageContainer = styled.div`
   display: flex;
   align-items: row;
   height: 400px;
-  width: 100%;
+  width: 100vw;
   padding-bottom: 180px;
 `;
 
@@ -82,4 +82,10 @@ export const WorkBottom = styled.div`
 export const WorkText = styled.div`
   color: white;
   font-weight: 400px;
+`;
+
+export const Whole = styled.div`
+  display: flex;
+  height: 100vh;
+  width: 100%;
 `;

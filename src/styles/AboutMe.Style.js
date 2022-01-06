@@ -4,7 +4,7 @@ export const AboutMeContainer = styled.div`
   display: flex;
   flex-direction: row;
   height: 800px;
-  width: 100%;
+  width: 100vw;
   background-color: #f0f1f4;
 `;
 
