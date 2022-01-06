@@ -14,20 +14,45 @@ import { Height3 } from "../styles/ShowWork.Style";
 import Footer from "../components/Footer";
 
 function WorkPageNew() {
+  const [toggle, setToggle] = useState(true);
+  const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+
   return (
     <>
       <TopContainer>
-        <Height1>Hello</Height1>
-        <Height2>Hi</Height2>
-        <Height3>Please</Height3>
+        <h1 onClick={() => setToggle(!toggle)} style={{ marginTop: 80 }}>
+          OK
+        </h1>
+        <h1 onClick={() => setToggle2(!toggle2)} style={{ marginTop: 110 }}>
+          OK
+        </h1>
+        <h1 onClick={() => setToggle3(!toggle3)} style={{ marginTop: 80 }}>
+          OK
+        </h1>
       </TopContainer>
-      <ContainerOneJS>
-        <Width1></Width1>
-        <Width2></Width2>
-        <Width3></Width3>
-      </ContainerOneJS>
-      <ContainerTwoLanding />
-      <ContainerThreeNative />
+      {toggle && (
+        <ContainerOneJS>
+          <Width1></Width1>
+          <Width2></Width2>
+          <Width3></Width3>
+        </ContainerOneJS>
+      )}
+      {toggle2 && (
+        <ContainerTwoLanding>
+          <Width1>TWOTWOTWOTWOTWO</Width1>
+          <Width2>TWOTWOTWOTWOTWO</Width2>
+          <Width3>TWOTWOTWOTWOTWO</Width3>
+        </ContainerTwoLanding>
+      )}
+
+      {toggle3 && (
+        <ContainerThreeNative>
+          <Width1>THREETHREETHREETHREE</Width1>
+          <Width2>THREETHREETHREETHREE</Width2>
+          <Width3>THREETHREETHREETHREE</Width3>
+        </ContainerThreeNative>
+      )}
       <Footer />
     </>
   );

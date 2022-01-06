@@ -6,6 +6,9 @@ export const TopContainer = styled.div`
   height: 250px;
   weight: 100%;
   background-color: blue;
+  justify-content: space-between;
+  padding-right: 250px;
+  padding-left: 250px;
 `;
 
 export const ContainerOneJS = styled.div`
