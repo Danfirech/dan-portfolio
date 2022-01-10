@@ -6,6 +6,7 @@ import { ContainerTwoLanding } from "../styles/ShowWork.Style";
 import { ContainerThreeNative } from "../styles/ShowWork.Style";
 import { BoxContain } from "../styles/ShowWork.Style";
 import { BoxTop } from "../styles/ShowWork.Style";
+import { BoxMiddle } from "../styles/ShowWork.Style";
 import { BoxBottom } from "../styles/ShowWork.Style";
 import { Width1 } from "../styles/ShowWork.Style";
 import { Width2 } from "../styles/ShowWork.Style";
@@ -17,8 +18,10 @@ import { IconImage } from "../styles/ShowWork.Style";
 import Api from "../components/images/api.png";
 import appStore from "../components/images/appStore.png";
 import javscript from "../components/images/javascript.png";
+import { BsGithub } from "react-icons/bs";
+import { DiJavascript1 } from "react-icons/di";
+
 import react from "../components/images/react.png";
-import { SiAzurefunctions } from "react-icons/si";
 
 import Footer from "../components/Footer";
 
@@ -76,40 +79,123 @@ function WorkPageNew() {
         <ContainerOneJS>
           <Width1>
             <BoxContain>
-              <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
+              <BoxMiddle>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "#011936ff" }}
+                >
+                  View
+                </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
+              </BoxBottom>
             </BoxContain>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
           </Width1>
           <Width2>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
           </Width2>
           <Width3>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
             <BoxContain>
               <BoxTop></BoxTop>
-              <BoxBottom></BoxBottom>
+              <BoxMiddle>
+                <h3>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  View
+                </a>
+              </BoxBottom>
             </BoxContain>
           </Width3>
         </ContainerOneJS>

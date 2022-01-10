@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   display: flex;
-  height: 150px;
+  height: 100px;
   width: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-top: 60px;
 `;
 
 export const FooterLeftContainer = styled.div`

@@ -40,6 +40,7 @@ export const Width1 = styled.div`
   justify-content: space-around;
   padding-right: 400px;
   padding-left: 400px;
+  padding-bottom: 20px;
 `;
 
 export const Width2 = styled.div`
@@ -52,6 +53,7 @@ export const Width2 = styled.div`
   justify-content: space-around;
   padding-right: 400px;
   padding-left: 400px;
+  padding-bottom: 20px;
 `;
 
 export const Width3 = styled.div`
@@ -64,41 +66,31 @@ export const Width3 = styled.div`
   justify-content: space-around;
   padding-right: 400px;
   padding-left: 400px;
-`;
-
-export const Height1 = styled.div`
-  display: flex;
-  height: 250px;
-  weight: 33.33%;
-  background-color: green;
-`;
-
-export const Height2 = styled.div`
-  display: flex;
-  height: 250px;
-  weight: 33.33%;
-  background-color: blue;
-`;
-
-export const Height3 = styled.div`
-  display: flex;
-  height: 250px;
-  weight: 33.33%;
-  background-color: green;
+  padding-bottom: 20px;
 `;
 
 export const BoxTop = styled.div`
   display: flex;
-  height: 80%;
+  height: 30%;
   width: 150px;
-  background-color: pink;
+  background-color: #f0f1f4;
+  flex-direction: column;
+`;
+
+export const BoxMiddle = styled.div`
+  display: flex;
+  height: 40%;
+  width: 150px;
+  background-color: #f0f1f4;
 `;
 
 export const BoxBottom = styled.div`
   display: flex;
-  height: 20%;
+  height: 50px;
   width: 150px;
-  background-color: black;
+  background-color: #f0f1f4;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const BoxContain = styled.div`
@@ -106,6 +98,7 @@ export const BoxContain = styled.div`
   height: 100%;
   width: 150px;
   flex-direction: column;
+  border: 2px solid black;
 `;
 
 export const IconImage = styled.img``;
