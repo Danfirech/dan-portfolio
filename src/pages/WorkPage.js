@@ -17,17 +17,49 @@ function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
   const [toggle2, setToggle2] = useState(false);
   const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
+
+  const firstButton = () => {
+    setToggle(true);
+    setToggle2(false);
+    setToggle3(false);
+    setToggle4(false);
+  };
+
+  const secondButton = () => {
+    setToggle(false);
+    setToggle2(true);
+    setToggle3(false);
+    setToggle4(false);
+  };
+
+  const thirdButton = () => {
+    setToggle(false);
+    setToggle2(false);
+    setToggle3(true);
+    setToggle4(false);
+  };
+
+  const fourthButton = () => {
+    setToggle(false);
+    setToggle2(false);
+    setToggle3(false);
+    setToggle4(true);
+  };
 
   return (
     <>
       <TopContainer>
-        <h1 onClick={() => setToggle(!toggle)} style={{ marginTop: 80 }}>
+        <h1 onClick={firstButton} style={{ marginTop: 80 }}>
           OK
         </h1>
-        <h1 onClick={() => setToggle2(!toggle2)} style={{ marginTop: 110 }}>
+        <h1 onClick={secondButton} style={{ marginTop: 110 }}>
           OK
         </h1>
-        <h1 onClick={() => setToggle3(!toggle3)} style={{ marginTop: 80 }}>
+        <h1 onClick={thirdButton} style={{ marginTop: 80 }}>
+          OK
+        </h1>
+        <h1 onClick={fourthButton} style={{ marginTop: 80 }}>
           OK
         </h1>
       </TopContainer>
@@ -51,6 +83,13 @@ function WorkPageNew() {
           <Width1>THREETHREETHREETHREE</Width1>
           <Width2>THREETHREETHREETHREE</Width2>
           <Width3>THREETHREETHREETHREE</Width3>
+        </ContainerThreeNative>
+      )}
+      {toggle4 && (
+        <ContainerThreeNative>
+          <Width1>FOURFOURFOURFOUR</Width1>
+          <Width2>FOURFOURFOURFOUR</Width2>
+          <Width3>FOURFOURFOURFOUR</Width3>
         </ContainerThreeNative>
       )}
       <Footer />
