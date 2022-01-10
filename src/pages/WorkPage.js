@@ -59,7 +59,7 @@ function WorkPageNew() {
         <h1 onClick={thirdButton} style={{ marginTop: 80 }}>
           OK
         </h1>
-        <h1 onClick={fourthButton} style={{ marginTop: 80 }}>
+        <h1 onClick={fourthButton} style={{ marginTop: 110 }}>
           OK
         </h1>
       </TopContainer>
