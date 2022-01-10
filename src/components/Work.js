@@ -3,7 +3,6 @@ import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-
 import { WorkbarLink } from "../styles/Navbar.style";
 
 import {

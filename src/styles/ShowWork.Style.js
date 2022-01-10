@@ -34,36 +34,36 @@ export const Width1 = styled.div`
   display: flex;
   height: 165px;
   weight: 100vw;
-  background-color: green;
+  background-color: #f0f1f4;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 400px;
+  padding-left: 400px;
 `;
 
 export const Width2 = styled.div`
   display: flex;
   height: 165px;
   weight: 100vw;
-  background-color: olive;
+  background-color: #f0f1f4;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 400px;
+  padding-left: 400px;
 `;
 
 export const Width3 = styled.div`
   display: flex;
   height: 165px;
   weight: 100vw;
-  background-color: green;
+  background-color: #f0f1f4;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 400px;
+  padding-left: 400px;
 `;
 
 export const Height1 = styled.div`
@@ -85,6 +85,27 @@ export const Height3 = styled.div`
   height: 250px;
   weight: 33.33%;
   background-color: green;
+`;
+
+export const BoxTop = styled.div`
+  display: flex;
+  height: 80%;
+  width: 150px;
+  background-color: pink;
+`;
+
+export const BoxBottom = styled.div`
+  display: flex;
+  height: 20%;
+  width: 150px;
+  background-color: black;
+`;
+
+export const BoxContain = styled.div`
+  display: flex;
+  height: 100%;
+  width: 150px;
+  flex-direction: column;
 `;
 
 export const IconImage = styled.img``;

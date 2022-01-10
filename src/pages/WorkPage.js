@@ -4,6 +4,9 @@ import { TopContainer } from "../styles/ShowWork.Style";
 import { ContainerOneJS } from "../styles/ShowWork.Style";
 import { ContainerTwoLanding } from "../styles/ShowWork.Style";
 import { ContainerThreeNative } from "../styles/ShowWork.Style";
+import { BoxContain } from "../styles/ShowWork.Style";
+import { BoxTop } from "../styles/ShowWork.Style";
+import { BoxBottom } from "../styles/ShowWork.Style";
 import { Width1 } from "../styles/ShowWork.Style";
 import { Width2 } from "../styles/ShowWork.Style";
 import { Width3 } from "../styles/ShowWork.Style";
@@ -72,18 +75,42 @@ function WorkPageNew() {
       {toggle && (
         <ContainerOneJS>
           <Width1>
-            <SiAzurefunctions fontSize="5.5em" />
-            <SiAzurefunctions fontSize="5.5em" />
-            <SiAzurefunctions fontSize="5.5em" />
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
           </Width1>
           <Width2>
-            <SiAzurefunctions fontSize="5.5em" />
-            <SiAzurefunctions fontSize="5.5em" />
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
           </Width2>
           <Width3>
-            <SiAzurefunctions fontSize="5.5em" />
-            <SiAzurefunctions fontSize="5.5em" />
-            <SiAzurefunctions fontSize="5.5em" />
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
+            <BoxContain>
+              <BoxTop></BoxTop>
+              <BoxBottom></BoxBottom>
+            </BoxContain>
           </Width3>
         </ContainerOneJS>
       )}
