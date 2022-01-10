@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
-import { SiJavascript } from "react-icons/si";
+import { DiJavascript } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { WorkbarLink } from "../styles/Navbar.style";
 
@@ -35,6 +35,7 @@ function ProfilePic() {
         <CardBox>
           <WorkTop>
             <FaReact color="Blue" fontSize="2.5em" />
+            <DiJavascript color="#f7df1e" fontSize="2.5em" />
           </WorkTop>
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>

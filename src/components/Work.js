@@ -3,6 +3,7 @@ import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+
 import { WorkbarLink } from "../styles/Navbar.style";
 
 import {
@@ -55,7 +56,8 @@ function ProfilePic() {
       <WorkCenterContainer>
         <CardBox>
           <WorkTop>
-            <FaReact color="Blue" fontSize="2.5em" />
+            <SiJavascript color="yellow" fontSize="2.5em" />
+            <SiJavascript color="yellow" fontSize="2.5em" />
           </WorkTop>
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>

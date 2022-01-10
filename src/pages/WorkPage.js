@@ -10,6 +10,12 @@ import { Width3 } from "../styles/ShowWork.Style";
 import { Height1 } from "../styles/ShowWork.Style";
 import { Height2 } from "../styles/ShowWork.Style";
 import { Height3 } from "../styles/ShowWork.Style";
+import { IconImage } from "../styles/ShowWork.Style";
+import Api from "../components/images/api.png";
+import appStore from "../components/images/appStore.png";
+import javscript from "../components/images/javascript.png";
+import react from "../components/images/react.png";
+import { SiAzurefunctions } from "react-icons/si";
 
 import Footer from "../components/Footer";
 
@@ -51,23 +57,34 @@ function WorkPageNew() {
     <>
       <TopContainer>
         <h1 onClick={firstButton} style={{ marginTop: 80 }}>
-          OK
+          <IconImage src={javscript} />
         </h1>
         <h1 onClick={secondButton} style={{ marginTop: 110 }}>
-          OK
+          <IconImage src={react} />
         </h1>
         <h1 onClick={thirdButton} style={{ marginTop: 80 }}>
-          OK
+          <IconImage src={appStore} />
         </h1>
         <h1 onClick={fourthButton} style={{ marginTop: 110 }}>
-          OK
+          <IconImage src={Api} />
         </h1>
       </TopContainer>
       {toggle && (
         <ContainerOneJS>
-          <Width1></Width1>
-          <Width2></Width2>
-          <Width3></Width3>
+          <Width1>
+            <SiAzurefunctions fontSize="5.5em" />
+            <SiAzurefunctions fontSize="5.5em" />
+            <SiAzurefunctions fontSize="5.5em" />
+          </Width1>
+          <Width2>
+            <SiAzurefunctions fontSize="5.5em" />
+            <SiAzurefunctions fontSize="5.5em" />
+          </Width2>
+          <Width3>
+            <SiAzurefunctions fontSize="5.5em" />
+            <SiAzurefunctions fontSize="5.5em" />
+            <SiAzurefunctions fontSize="5.5em" />
+          </Width3>
         </ContainerOneJS>
       )}
       {toggle2 && (

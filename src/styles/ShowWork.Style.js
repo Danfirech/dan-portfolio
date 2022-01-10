@@ -5,7 +5,7 @@ export const TopContainer = styled.div`
   flex-direction: row;
   height: 250px;
   weight: 100%;
-  background-color: blue;
+  background-color: #f0f1f4;
   justify-content: space-between;
   padding-right: 250px;
   padding-left: 250px;
@@ -15,6 +15,7 @@ export const ContainerOneJS = styled.div`
   height: 495px;
   weight: 100vw;
   background-color: black;
+  align-items: center;
 `;
 
 export const ContainerTwoLanding = styled.div`
@@ -34,6 +35,11 @@ export const Width1 = styled.div`
   height: 165px;
   weight: 100vw;
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 300px;
+  padding-left: 300px;
 `;
 
 export const Width2 = styled.div`
@@ -41,6 +47,11 @@ export const Width2 = styled.div`
   height: 165px;
   weight: 100vw;
   background-color: olive;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 300px;
+  padding-left: 300px;
 `;
 
 export const Width3 = styled.div`
@@ -48,6 +59,11 @@ export const Width3 = styled.div`
   height: 165px;
   weight: 100vw;
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 300px;
+  padding-left: 300px;
 `;
 
 export const Height1 = styled.div`
@@ -70,3 +86,5 @@ export const Height3 = styled.div`
   weight: 33.33%;
   background-color: green;
 `;
+
+export const IconImage = styled.img``;

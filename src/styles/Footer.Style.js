@@ -4,6 +4,8 @@ export const FooterContainer = styled.div`
   display: flex;
   height: 150px;
   width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 `;
 
 export const FooterLeftContainer = styled.div`
