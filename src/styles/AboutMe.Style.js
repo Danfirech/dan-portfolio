@@ -5,7 +5,7 @@ export const AboutMeContainer = styled.div`
   flex-direction: row;
   height: 800px;
   width: 100vw;
-  background-color: #f0f1f4;
+  background-color: #011936ff;
 `;
 
 export const LeftContainer = styled.div`

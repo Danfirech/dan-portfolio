@@ -20,7 +20,6 @@ export const FooterCenterContainer = styled.div`
   width: 33.3%;
   background-color: #f9dc5cff;
   justify-content: center;
-
   align-items: center;
   justify-content: space-between;
   padding-left: 170px;
