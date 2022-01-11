@@ -98,7 +98,7 @@ export const BoxContain = styled.div`
   height: 100%;
   width: 150px;
   flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 `;
 
 export const IconImage = styled.img``;

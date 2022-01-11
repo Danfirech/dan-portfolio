@@ -78,7 +78,7 @@ function WorkPageNew() {
       {toggle && (
         <ContainerOneJS>
           <Width1>
-            <BoxContain>
+            <BoxContain className="shadow-drop-2-center">
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
