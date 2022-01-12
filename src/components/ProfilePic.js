@@ -24,10 +24,9 @@ function ProfilePic() {
           </h1>
         </TextBoxOne>
       </LeftContainer>
-      <CenterContainer>
-        <Image src={Headshot} />
-      </CenterContainer>
+      <CenterContainer></CenterContainer>
       <RightContainer></RightContainer>
+      <Image style={{ paddingLeft: 400, paddingBottom: 40 }} src={Headshot} />
     </PageContainer>
   );
 }

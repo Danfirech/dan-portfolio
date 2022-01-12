@@ -45,6 +45,8 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 10px;
   color: #f9dc5cff;
+  padding-left: 50px;
+
   @media (max-width: 1060px) {
     display: none;
     color: #f9dc5cff;

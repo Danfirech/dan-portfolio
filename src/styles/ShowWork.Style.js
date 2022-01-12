@@ -3,12 +3,23 @@ import styled from "styled-components";
 export const TopContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 250px;
+  height: 150px;
   weight: 100%;
   background-color: #f0f1f4;
   justify-content: space-between;
   padding-right: 250px;
   padding-left: 250px;
+`;
+export const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  weight: 100%;
+  background-color: #f0f1f4;
+  justify-content: space-between;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 50px;
 `;
 
 export const ContainerOneJS = styled.div`
@@ -51,8 +62,8 @@ export const Width2 = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 600px;
+  padding-left: 600px;
   padding-bottom: 20px;
 `;
 
@@ -73,7 +84,7 @@ export const BoxTop = styled.div`
   display: flex;
   height: 30%;
   width: 150px;
-  background-color: #f0f1f4;
+  background-color: #f3efe5;
   flex-direction: column;
 `;
 
@@ -81,14 +92,14 @@ export const BoxMiddle = styled.div`
   display: flex;
   height: 40%;
   width: 150px;
-  background-color: #f0f1f4;
+  background-color: #f3efe5;
 `;
 
 export const BoxBottom = styled.div`
   display: flex;
   height: 50px;
   width: 150px;
-  background-color: #f0f1f4;
+  background-color: #f3efe5;
   justify-content: space-between;
   align-items: center;
 `;

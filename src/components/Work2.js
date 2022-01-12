@@ -36,10 +36,18 @@ function ProfilePic() {
       <WorkCenterContainer>
         <CardBox>
           <WorkTop>
-            <FaReact color="Blue" fontSize="2.5em" />
+            {/* <FaReact color="Blue" fontSize="2.5em" />
             <DiJavascript color="#f7df1e" fontSize="2.5em" />
             <SiJavascript color="#f7df1e" fontSize="2.5em" />
-            <AiOutlineConsoleSql color="#f7df1e" fontSize="2.5em" />
+            <AiOutlineConsoleSql color="#f7df1e" fontSize="2.5em" /> */}
+            <img src="https://img.icons8.com/material-rounded/24/000000/code.png" />
+            <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
+            <img src="https://img.icons8.com/color/48/000000/html-5--v2.png" />
+            <img src="https://img.icons8.com/external-soft-fill-juicy-fish/40/000000/external-css-software-development-soft-fill-soft-fill-juicy-fish.png" />
+            <img src="https://img.icons8.com/external-soft-fill-juicy-fish/40/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" />
+            <img src="https://img.icons8.com/cute-clipart/43/000000/react-native.png" />
+
+            <img src="https://img.icons8.com/fluency-systems-regular/24/000000/code.png" />
           </WorkTop>
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>

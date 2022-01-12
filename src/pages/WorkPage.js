@@ -11,9 +11,7 @@ import { BoxBottom } from "../styles/ShowWork.Style";
 import { Width1 } from "../styles/ShowWork.Style";
 import { Width2 } from "../styles/ShowWork.Style";
 import { Width3 } from "../styles/ShowWork.Style";
-import { Height1 } from "../styles/ShowWork.Style";
-import { Height2 } from "../styles/ShowWork.Style";
-import { Height3 } from "../styles/ShowWork.Style";
+import { TitleContainer } from "../styles/ShowWork.Style";
 import { IconImage } from "../styles/ShowWork.Style";
 import Api from "../components/images/api.png";
 import appStore from "../components/images/appStore.png";
@@ -65,20 +63,26 @@ function WorkPageNew() {
         <h1 onClick={firstButton} style={{ marginTop: 80 }}>
           <IconImage src={javscript} />
         </h1>
-        <h1 onClick={secondButton} style={{ marginTop: 110 }}>
+        <h1 onClick={secondButton} style={{ marginTop: 80 }}>
           <IconImage src={react} />
         </h1>
         <h1 onClick={thirdButton} style={{ marginTop: 80 }}>
           <IconImage src={appStore} />
         </h1>
-        <h1 onClick={fourthButton} style={{ marginTop: 110 }}>
+        <h1 onClick={fourthButton} style={{ marginTop: 80 }}>
           <IconImage src={Api} />
         </h1>
       </TopContainer>
+      <TitleContainer>
+        <h4>Javascript</h4>
+        <h4>Landing Pages</h4>
+        <h4>React Native</h4>
+        <h4>API's</h4>
+      </TitleContainer>
       {toggle && (
         <ContainerOneJS>
           <Width1>
-            <BoxContain className="shadow-drop-2-center">
+            <BoxContain className="shadow-drop-br">
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -95,106 +99,127 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
           </Width1>
           <Width2>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
           </Width2>
           <Width3>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop></BoxTop>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
               <BoxMiddle>
-                <h3>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none", color: "#011936ff" }}
                 >
                   View
                 </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
           </Width3>

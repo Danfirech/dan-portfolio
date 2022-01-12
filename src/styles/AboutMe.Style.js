@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutMeContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 800px;
+  height: 300px;
   width: 100vw;
   background-color: #011936ff;
 `;

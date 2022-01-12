@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WorkPageContainer = styled.div`
   display: flex;
   align-items: row;
-  height: 400px;
+  height: 300px;
   width: 100vw;
   padding-bottom: 180px;
 `;
@@ -57,26 +57,27 @@ export const WorkTop = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 100%;
+  width: 450px;
   align-items: center;
-  padding-left: 40px;
+  justify-content: space-between;
+  padding-left: 50px;
 `;
 
 export const WorkCenter = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 100%;
-  padding-left: 30px;
+  width: 450px;
+  padding-left: 50px;
 `;
 
 export const WorkBottom = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 100%;
-  padding-left: 20px;
+  width: 450px;
   padding-top: 30px;
+  padding-left: 40px;
 `;
 
 export const WorkText = styled.div`

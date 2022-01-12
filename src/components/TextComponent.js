@@ -5,7 +5,7 @@ import { PageContainer, Text } from "../styles/Text.style";
 function TextComponent() {
   return (
     <PageContainer>
-      <Text>Skills / Tools</Text>
+      <Text>Tools</Text>
     </PageContainer>
   );
 }

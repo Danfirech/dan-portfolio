@@ -5,6 +5,8 @@ export const PageContainer = styled.div`
   align-items: row;
   height: 500px;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const LeftContainer = styled.div`
@@ -15,12 +17,14 @@ export const LeftContainer = styled.div`
 `;
 
 export const CenterContainer = styled.div`
+  display: flex;
   height: 500px;
   width: 30%;
   background-color: #011936ff;
 `;
 
 export const RightContainer = styled.div`
+  display: flex;
   height: 500px;
   width: 40%;
   background-color: #f9dc5cff;
@@ -30,9 +34,8 @@ export const RightContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 300px;
-  height: 25%;
-  padding-left: 430px;
+  width: 500px;
+  height: 500px;
   position: absolute;
   @media (max-width: 1060px) {
     display: none;
