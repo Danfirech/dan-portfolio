@@ -24,13 +24,13 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
           <Route exact path="/work" element={<WorkPage />} />
-          <Route exact path="/home" element={<HomePage />} />
           <Route exact path="/about" element={<AboutMePage />} />
           <Route exact path="/js" element={<JavascriptPage />} />
           <Route exact path="/lp" element={<LandingPage />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

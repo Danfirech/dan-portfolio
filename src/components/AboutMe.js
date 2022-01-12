@@ -4,7 +4,6 @@ import { Image } from "../styles/ProfilePic.style";
 import Rami from "../components/images/Rami.png";
 
 import {
-  AboutMeContainer,
   LeftContainer,
   RightContainer,
   CenterContainer,
@@ -13,7 +12,7 @@ import {
 
 function AboutMe() {
   return (
-    <AboutMeContainer>
+    <>
       <LeftContainer>
         <Image style={{ paddingTop: 270 }} src={Rami} />
       </LeftContainer>
@@ -31,7 +30,7 @@ function AboutMe() {
           </h1>
         </AboutMeText>
       </RightContainer>
-    </AboutMeContainer>
+    </>
   );
 }
 

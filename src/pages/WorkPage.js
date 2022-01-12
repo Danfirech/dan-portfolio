@@ -247,7 +247,6 @@ function WorkPageNew() {
           <Width3>FOURFOURFOURFOUR</Width3>
         </ContainerThreeNative>
       )}
-      <Footer />
     </>
   );
 }

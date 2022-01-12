@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutMeContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: 400px;
   width: 100vw;
   background-color: #011936ff;
 `;
@@ -32,7 +32,7 @@ export const RightContainer = styled.div`
 export const AboutMeText = styled.div`
   color: #f9dc5cff;
   width: 300px;
-  height: 200px;
+  height: 50px;
   background: none;
   margin-left: 300px;
   position: absolute;
