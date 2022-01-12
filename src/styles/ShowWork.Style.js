@@ -23,20 +23,20 @@ export const TitleContainer = styled.div`
 `;
 
 export const ContainerOneJS = styled.div`
-  height: 495px;
+  height: 620px;
   weight: 100vw;
   background-color: black;
   align-items: center;
 `;
 
 export const ContainerTwoLanding = styled.div`
-  height: 495px;
+  height: 620px;
   weight: 100vw;
   background-color: pink;
 `;
 
 export const ContainerThreeNative = styled.div`
-  height: 495px;
+  height: 620px;
   weight: 100vw;
   background-color: grey;
 `;
@@ -77,7 +77,7 @@ export const Width3 = styled.div`
   justify-content: space-around;
   padding-right: 400px;
   padding-left: 400px;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
 `;
 
 export const BoxTop = styled.div`

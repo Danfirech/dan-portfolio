@@ -1,10 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import WorkPage from "../pages/WorkPage";
-import { DiJavascript } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { AiOutlineConsoleSql } from "react-icons/ai";
+
 import { WorkbarLink } from "../styles/Navbar.style";
 
 import {
@@ -19,7 +16,6 @@ import {
   CardBox,
   WorkText,
 } from "../styles/Work.style";
-import { DansButton } from "../styles/ButtonOne.Style";
 
 function ProfilePic() {
   const [isToggled, setIsToggled] = useState(false);

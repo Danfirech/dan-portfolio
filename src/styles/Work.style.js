@@ -5,7 +5,7 @@ export const WorkPageContainer = styled.div`
   align-items: row;
   height: 300px;
   width: 100vw;
-  padding-bottom: 180px;
+  padding-bottom: 140px;
 `;
 
 export const CardBox = styled.div`
@@ -85,8 +85,8 @@ export const WorkText = styled.div`
   font-weight: 400px;
 `;
 
-export const Whole = styled.div`
-  display: flex;
-  height: 100vh;
-  width: 100%;
-`;
+// export const Whole = styled.div`
+//   display: flex;
+//   height: 100vh;
+//   width: 100%;
+// `;

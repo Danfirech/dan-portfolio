@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
+  height: 450px;
   display: flex;
-  flex-direction: row;
-  height: 400px;
-  width: 100vw;
-  background-color: #011936ff;
 `;
 
 export const LeftContainer = styled.div`
   display: flex;
-  height: 100vh;
+  height: 450px;
   width: 50%;
   background-color: #011936ff;
 `;
@@ -24,7 +21,7 @@ export const LeftContainer = styled.div`
 
 export const RightContainer = styled.div`
   display: flex;
-  height: 100vh;
+  height: 450px;
   width: 50%;
   background-color: #011936ff;
 `;
