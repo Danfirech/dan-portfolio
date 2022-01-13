@@ -15,7 +15,7 @@ function AboutMe() {
     <>
       <AboutMeContainer>
         <LeftContainer>
-          <Image2 style={{ paddingTop: 70, paddingLeft: 410 }} src={Rami} />
+          <Image2 src={Rami} />
         </LeftContainer>
         <RightContainer>
           <h1

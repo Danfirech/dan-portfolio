@@ -8,6 +8,9 @@ export const AboutMeContainer = styled.div`
     flex-direction: column;
     padding-right: 25;
     padding-left: 25;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
   }
 `;
 
@@ -17,10 +20,11 @@ export const LeftContainer = styled.div`
   width: 50%;
   background-color: #011936ff;
   @media (max-width: 389px) {
-    height: 450px;
+    height: 200px;
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
   }
 `;
 
@@ -36,11 +40,11 @@ export const RightContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
-
   @media (max-width: 389px) {
-    height: 450px;
+    height: 300px;
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
   }
 `;

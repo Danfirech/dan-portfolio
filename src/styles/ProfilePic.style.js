@@ -14,6 +14,13 @@ export const LeftContainer = styled.div`
   height: 500px;
   width: 30%;
   background-color: #011936ff;
+  @media (max-width: 389px) {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const CenterContainer = styled.div`
@@ -21,6 +28,9 @@ export const CenterContainer = styled.div`
   height: 500px;
   width: 30%;
   background-color: #011936ff;
+  @media (max-width: 389px) {
+    display: none;
+  }
 `;
 
 export const RightContainer = styled.div`
@@ -31,6 +41,10 @@ export const RightContainer = styled.div`
   @media (max-width: 1060px) {
     background-color: #011936ff;
   }
+
+  @media (max-width: 389px) {
+    display: none;
+  }
 `;
 
 export const Image = styled.img`
@@ -40,14 +54,23 @@ export const Image = styled.img`
   @media (max-width: 1200px) {
     display: none;
   }
+  @media (max-width: 389px) {
+    display: none;
+  }
 `;
 
 export const Image2 = styled.img`
   width: 300px;
   height: 300px;
   position: absolute;
-  @media (max-width: 1060px) {
-    display: none;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 389px) {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -60,5 +83,9 @@ export const TextBoxOne = styled.div`
   position: absolute;
   @media (max-width: 1060px) {
     margin-left: 100px;
+  }
 
+  @media (max-width: 389px) {
+    margin-left: 0px;
+  }
 `;
