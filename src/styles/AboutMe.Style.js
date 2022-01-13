@@ -3,6 +3,12 @@ import styled from "styled-components";
 export const AboutMeContainer = styled.div`
   height: 450px;
   display: flex;
+  @media (max-width: 389px) {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25;
+    padding-left: 25;
+  }
 `;
 
 export const LeftContainer = styled.div`
@@ -10,6 +16,12 @@ export const LeftContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
+  @media (max-width: 389px) {
+    height: 450px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 // export const CenterContainer = styled.div`
@@ -24,17 +36,11 @@ export const RightContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
-  padding-right: 420px;
-`;
 
-export const AboutMeText = styled.div`
-  color: #f9dc5cff;
-  width: 300px;
-  height: 50px;
-  background: none;
-  margin-left: 300px;
-  position: absolute;
-  @media (max-width: 1060px) {
-    margin-left: 100px;
-
+  @media (max-width: 389px) {
+    height: 450px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
 `;

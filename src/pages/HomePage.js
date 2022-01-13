@@ -13,15 +13,11 @@ import WorkPage2 from "../pages/WorkPage2";
 function HomePage() {
   return (
     <>
-      {/* <Whole> */}
-      <div>
-        <ProfilePic />
-        <TextComponent />
-        <Work2 />
-        {/* <Work /> */}
-        <AboutMe />
-      </div>
-      {/* </Whole> */}
+      <ProfilePic />
+      <TextComponent />
+      <Work2 />
+      {/* <Work /> */}
+      <AboutMe />
     </>
   );
 }

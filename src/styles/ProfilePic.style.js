@@ -37,7 +37,7 @@ export const Image = styled.img`
   width: 500px;
   height: 500px;
   position: absolute;
-  @media (max-width: 1060px) {
+  @media (max-width: 1200px) {
     display: none;
   }
 `;

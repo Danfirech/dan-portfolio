@@ -38,10 +38,11 @@ export const Divider = styled.div`
 export const WorkCenterContainer = styled.div`
   display: flex;
   height: 400px;
-  width: 33.3%;
+  width: 100%;
   background-color: #f0f1f4;
   justify-content: center;
   padding-top: 40px;
+  align-items: center;
 `;
 
 export const WorkRightContainer = styled.div`
@@ -57,36 +58,30 @@ export const WorkTop = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 450px;
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 50px;
+  justify-content: center;
 `;
 
 export const WorkCenter = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 450px;
-  padding-left: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const WorkBottom = styled.div`
   display: flex;
   background-color: #f0f1f4;
   height: 33.33%;
-  width: 450px;
-  padding-top: 30px;
-  padding-left: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const WorkText = styled.div`
   color: white;
   font-weight: 400px;
 `;
-
-// export const Whole = styled.div`
-//   display: flex;
-//   height: 100vh;
-//   width: 100%;
-// `;

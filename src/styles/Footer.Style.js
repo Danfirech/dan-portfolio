@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   display: flex;
   height: 100px;
-  width: 100%;
-  /* margin-top: 60px; */
+  width: 100vw;
+  @media (max-width: 389px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterLeftContainer = styled.div`
@@ -13,6 +15,9 @@ export const FooterLeftContainer = styled.div`
   width: 33.3%;
   background-color: #f9dc5cff;
   justify-content: center;
+  @media (max-width: 389px) {
+    width: 100vw;
+  }
 `;
 
 export const FooterCenterContainer = styled.div`
@@ -25,6 +30,12 @@ export const FooterCenterContainer = styled.div`
   justify-content: space-between;
   padding-left: 170px;
   padding-right: 170px;
+  @media (max-width: 389px) {
+    width: 100vw;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 `;
 
 export const FooterRightContainer = styled.div`
@@ -35,6 +46,9 @@ export const FooterRightContainer = styled.div`
   justify-content: center;
   /* padding-top: 40px; */
   justify-content: center;
+  @media (max-width: 389px) {
+    width: 100vw;
+  }
 `;
 
 export const CardBox = styled.div`
