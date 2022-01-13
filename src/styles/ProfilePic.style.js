@@ -42,6 +42,15 @@ export const Image = styled.img`
   }
 `;
 
+export const Image2 = styled.img`
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  @media (max-width: 1060px) {
+    display: none;
+  }
+`;
+
 export const TextBoxOne = styled.div`
   color: #f9dc5cff;
   width: 300px;

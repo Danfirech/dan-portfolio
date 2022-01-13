@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "../styles/ProfilePic.style";
+import { Image2 } from "../styles/ProfilePic.style";
 
 import Rami from "../components/images/Rami.png";
 
@@ -16,7 +16,7 @@ function AboutMe() {
     <>
       <AboutMeContainer>
         <LeftContainer>
-          {/* <Image style={{ paddingTop: 30 }} src={Rami} /> */}
+          <Image2 style={{ paddingTop: 70, paddingLeft: 410 }} src={Rami} />
         </LeftContainer>
         <RightContainer>
           <AboutMeText>

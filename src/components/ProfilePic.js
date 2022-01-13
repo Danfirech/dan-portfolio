@@ -13,7 +13,7 @@ function ProfilePic() {
   return (
     <PageContainer>
       <LeftContainer>
-        <TextBoxOne>
+        <TextBoxOne style={{ paddingLeft: 100, paddingTop: 20 }}>
           <h1 style={{ fontSize: 50 }}>Designer by day Dancer by night....</h1>
           <h1 style={{ fontSize: 12 }}>
             Let me create you something beutiful and user friendly. With a

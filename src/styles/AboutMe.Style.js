@@ -24,6 +24,7 @@ export const RightContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
+  padding-right: 420px;
 `;
 
 export const AboutMeText = styled.div`
