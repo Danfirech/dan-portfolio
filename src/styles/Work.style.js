@@ -13,21 +13,12 @@ export const CardBox = styled.div`
   flex-direction: column;
   height: 380px;
   width: 80%;
-  background-color: #f0f1f4;
-`;
-
-export const WorkLeftContainer = styled.div`
-  display: flex;
-  height: 400px;
-  width: 33.3%;
-  background-color: #f0f1f4;
-  justify-content: center;
-  padding-top: 40px;
+  background-color: white;
 `;
 
 export const Divider = styled.div`
   width: 0.05%;
-  background-color: #011936ff;
+  background-color: white;
   height: 400px;
   padding-top: 100px;
   @media (max-width: 1060px) {
@@ -39,24 +30,15 @@ export const WorkCenterContainer = styled.div`
   display: flex;
   height: 400px;
   width: 100%;
-  background-color: #f0f1f4;
+  background-color: white;
   justify-content: center;
   padding-top: 40px;
   align-items: center;
 `;
 
-export const WorkRightContainer = styled.div`
-  display: flex;
-  height: 400px;
-  width: 33.3%;
-  background-color: #f0f1f4;
-  justify-content: center;
-  padding-top: 40px;
-`;
-
 export const WorkTop = styled.div`
   display: flex;
-  background-color: #f0f1f4;
+  background-color: white;
   height: 33.33%;
   width: 100%;
   align-items: center;
@@ -65,7 +47,7 @@ export const WorkTop = styled.div`
 
 export const WorkCenter = styled.div`
   display: flex;
-  background-color: #f0f1f4;
+  background-color: white;
   height: 33.33%;
   width: 100%;
   align-items: center;
@@ -74,7 +56,7 @@ export const WorkCenter = styled.div`
 
 export const WorkBottom = styled.div`
   display: flex;
-  background-color: #f0f1f4;
+  background-color: white;
   height: 33.33%;
   width: 100%;
   align-items: center;

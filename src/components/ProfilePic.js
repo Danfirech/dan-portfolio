@@ -3,11 +3,11 @@ import Headshot from "../components/images/Headshot.png";
 import {
   PageContainer,
   LeftContainer,
-  RightContainer,
   Image,
   TextBoxOne,
-  CenterContainer,
 } from "../styles/ProfilePic.style";
+import Line from "../components/images/Line.png";
+import DannyBoi from "../components/images/Dannyboi.png";
 
 function ProfilePic() {
   return (
@@ -15,7 +15,7 @@ function ProfilePic() {
       <LeftContainer>
         <TextBoxOne>
           <h1 style={{ fontSize: 50 }}>Designer by day Dancer by night....</h1>
-          <h1 style={{ fontSize: 12 }}>
+          <h1 style={{ fontSize: 20 }}>
             Let me create you something beutiful and user friendly. With a
             constant passion <br />
             for furthering my knowledge odds are your application will be better
@@ -24,9 +24,14 @@ function ProfilePic() {
           </h1>
         </TextBoxOne>
       </LeftContainer>
-      <CenterContainer></CenterContainer>
-      <RightContainer></RightContainer>
-      <Image style={{ paddingLeft: 400, paddingBottom: 40 }} src={Headshot} />
+      <Image
+        style={{ paddingBottom: 40, width: 2000, height: 700 }}
+        src={Line}
+      />
+      <Image
+        style={{ width: 1800, height: 900, paddingTop: 300, paddingLeft: 900 }}
+        src={DannyBoi}
+      />
     </PageContainer>
   );
 }

@@ -14,7 +14,7 @@ export const FooterLeftContainer = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;
-  background-color: #f9dc5cff;
+  background-color: #016c8c;
   justify-content: center;
   @media (max-width: 389px) {
     width: 100vw;
@@ -26,7 +26,7 @@ export const FooterCenterContainer = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;
-  background-color: #f9dc5cff;
+  background-color: #016c8c;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ export const FooterRightContainer = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;
-  background-color: #f9dc5cff;
+  background-color: #016c8c;
   justify-content: center;
   /* padding-top: 40px; */
   justify-content: center;
@@ -60,7 +60,7 @@ export const CardBox = styled.div`
   flex-direction: column;
   height: 120px;
   width: 80%;
-  background-color: #f9dc5cff;
+  background-color: #016c8c;
   justify-content: center;
   align-items: center;
   @media (max-width: 389px) {

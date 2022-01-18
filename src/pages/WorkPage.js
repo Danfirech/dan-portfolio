@@ -9,19 +9,13 @@ import { BoxTop } from "../styles/ShowWork.Style";
 import { BoxMiddle } from "../styles/ShowWork.Style";
 import { BoxBottom } from "../styles/ShowWork.Style";
 import { Width2 } from "../styles/ShowWork.Style";
-import { TitleContainer } from "../styles/ShowWork.Style";
-import { IconImage } from "../styles/ShowWork.Style";
-import Api from "../components/images/api.png";
-import appStore from "../components/images/appStore.png";
-import javscript from "../components/images/javascript.png";
 import { BsGithub } from "react-icons/bs";
 import { DiJavascript1 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { FaMobileAlt } from "react-icons/fa";
-import react from "../components/images/react.png";
 import { LineContainer } from "../styles/ShowWork.Style";
 import { Line } from "../styles/ShowWork.Style";
-import Footer from "../components/Footer";
+import { Button } from "../styles/ShowWork.Style";
 
 function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
@@ -60,16 +54,16 @@ function WorkPageNew() {
   return (
     <>
       <TopContainer>
-        <h3 onClick={firstButton}>Javascript</h3>
-        <h3 onClick={secondButton}>Landing Pages</h3>
-        <h3 onClick={thirdButton}>React Native</h3>
-        <h3 onClick={fourthButton}>API</h3>
+        <Button onClick={firstButton}>Javascript</Button>
+        <Button onClick={secondButton}>Landing Pages</Button>
+        <Button onClick={thirdButton}>React Native</Button>
+        <Button onClick={fourthButton}>API</Button>
       </TopContainer>
-      <TitleContainer></TitleContainer>
+
       {toggle && (
         <ContainerOneJS>
           <Width2>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -93,7 +87,7 @@ function WorkPageNew() {
             <LineContainer>
               <Line />
             </LineContainer>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -117,7 +111,7 @@ function WorkPageNew() {
             <LineContainer>
               <Line />
             </LineContainer>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -144,7 +138,7 @@ function WorkPageNew() {
       {toggle2 && (
         <ContainerTwoLanding>
           <Width2>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
@@ -165,7 +159,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
@@ -186,7 +180,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
@@ -214,7 +208,7 @@ function WorkPageNew() {
       {toggle3 && (
         <ContainerThreeNative>
           <Width2>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
@@ -235,7 +229,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
@@ -256,7 +250,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
@@ -283,7 +277,7 @@ function WorkPageNew() {
       {toggle4 && (
         <ContainerThreeNative>
           <Width2>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -304,7 +298,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
@@ -325,7 +319,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain className="shadow-drop-br">
+            <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>

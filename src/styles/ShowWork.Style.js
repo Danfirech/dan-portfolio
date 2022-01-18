@@ -5,7 +5,7 @@ export const TopContainer = styled.div`
   flex-direction: row;
   height: 50px;
   weight: 100%;
-  background-color: #f0f1f4;
+  background-color: white;
   justify-content: space-between;
   padding-right: 250px;
   padding-left: 250px;
@@ -24,29 +24,29 @@ export const TitleContainer = styled.div`
 `;
 
 export const ContainerOneJS = styled.div`
-  height: 525px;
+  height: 695px;
   weight: 100vw;
-  background-color: black;
+  background-color: white;
   align-items: center;
 `;
 
 export const ContainerTwoLanding = styled.div`
-  height: 620px;
+  height: 695px;
   weight: 100vw;
-  background-color: pink;
+  background-color: white;
 `;
 
 export const ContainerThreeNative = styled.div`
-  height: 620px;
+  height: 695px;
   weight: 100vw;
-  background-color: grey;
+  background-color: white;
 `;
 
 export const Width2 = styled.div`
   display: flex;
-  height: 500px;
+  height: 625px;
   weight: 100vw;
-  background-color: #f0f1f4;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +59,7 @@ export const BoxTop = styled.div`
   display: flex;
   height: 10%;
   width: 260px;
-  background-color: #f3efe5;
+  background-color: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -69,7 +69,7 @@ export const BoxMiddle = styled.div`
   display: flex;
   height: 60%;
   width: 260px;
-  background-color: #f3efe5;
+  background-color: white;
   align-items: center;
   justify-content: center;
 `;
@@ -78,7 +78,7 @@ export const BoxBottom = styled.div`
   display: flex;
   height: 30%;
   width: 260px;
-  background-color: #f3efe5;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
@@ -93,12 +93,24 @@ export const BoxContain = styled.div`
 
 export const LineContainer = styled.div`
   height: 500px;
+  padding-top: 200px;
   width: 2px;
 `;
 export const Line = styled.div`
-  height: 500px;
+  height: 300px;
   width: 2px;
   background-color: black;
+`;
+
+export const Button = styled.div`
+  background-color: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid black;
 `;
 
 export const IconImage = styled.img``;

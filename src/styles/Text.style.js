@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PageContainer = styled.div`
   height: 100px;
   width: 100%;
-  background-color: #f0f1f4;
+  background-color: white;
 `;
 
 export const Text = styled.div`

@@ -12,38 +12,14 @@ export const PageContainer = styled.div`
 export const LeftContainer = styled.div`
   display: flex;
   height: 500px;
-  width: 30%;
-  background-color: #011936ff;
+  width: 100vw;
+  background-color: white;
   @media (max-width: 389px) {
     width: 100%;
     display: flex;
     height: 500px;
     align-items: center;
     justify-content: center;
-  }
-`;
-
-export const CenterContainer = styled.div`
-  display: flex;
-  height: 500px;
-  width: 30%;
-  background-color: #011936ff;
-  @media (max-width: 389px) {
-    display: none;
-  }
-`;
-
-export const RightContainer = styled.div`
-  display: flex;
-  height: 500px;
-  width: 40%;
-  background-color: #f9dc5cff;
-  @media (max-width: 1060px) {
-    background-color: #011936ff;
-  }
-
-  @media (max-width: 389px) {
-    display: none;
   }
 `;
 
@@ -75,12 +51,13 @@ export const Image2 = styled.img`
 `;
 
 export const TextBoxOne = styled.div`
-  color: #f9dc5cff;
+  color: #000522;
   width: 300px;
   height: 200px;
   background: none;
   margin-left: 300px;
   position: absolute;
+  z-index: 3;
   @media (max-width: 1060px) {
     margin-left: 100px;
   }

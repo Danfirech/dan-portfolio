@@ -16,8 +16,7 @@ function HomePage() {
       <ProfilePic />
       <TextComponent />
       <Work2 />
-      {/* <Work /> */}
-      <AboutMe />
+      {/* <AboutMe /> */}
     </>
   );
 }
