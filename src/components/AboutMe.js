@@ -23,8 +23,8 @@ function AboutMe() {
               fontSize: 15,
               paddingTop: 80,
               color: "white",
-              paddingRight: 30,
-              paddingLeft: 30,
+              paddingRight: 200,
+              paddingLeft: 300,
             }}
           >
             There are a number of reasons you may need a block of text and when

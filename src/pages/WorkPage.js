@@ -81,7 +81,7 @@ function WorkPageNew() {
       </TitleContainer>
       {toggle && (
         <ContainerOneJS>
-          <Width1>
+          {/* <Width1>
             <BoxContain className="shadow-drop-br">
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
@@ -133,7 +133,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-          </Width1>
+          </Width1> */}
           <Width2>
             <BoxContain className="shadow-drop-br">
               <BoxTop>
@@ -169,8 +169,25 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
+            <BoxContain className="shadow-drop-br">
+              <BoxTop>
+                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
+              </BoxTop>
+              <BoxMiddle>
+                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+              </BoxMiddle>
+              <BoxBottom>
+                <a
+                  href="https://www.applevacations.com/#!/"
+                  style={{ textDecoration: "none", color: "#011936ff" }}
+                >
+                  View
+                </a>
+                <BsGithub color=" #011936ff" fontSize="2.5em" />
+              </BoxBottom>
+            </BoxContain>
           </Width2>
-          <Width3>
+          {/* <Width3>
             <BoxContain className="shadow-drop-br">
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
@@ -222,7 +239,7 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-          </Width3>
+          </Width3> */}
         </ContainerOneJS>
       )}
       {toggle2 && (

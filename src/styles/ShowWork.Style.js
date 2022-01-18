@@ -23,7 +23,7 @@ export const TitleContainer = styled.div`
 `;
 
 export const ContainerOneJS = styled.div`
-  height: 620px;
+  height: 525px;
   weight: 100vw;
   background-color: black;
   align-items: center;
@@ -56,14 +56,14 @@ export const Width1 = styled.div`
 
 export const Width2 = styled.div`
   display: flex;
-  height: 165px;
+  height: 500px;
   weight: 100vw;
   background-color: #f0f1f4;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-right: 600px;
-  padding-left: 600px;
+  justify-content: space-between;
+  padding-right: 300px;
+  padding-left: 300px;
   padding-bottom: 20px;
 `;
 
@@ -82,33 +82,37 @@ export const Width3 = styled.div`
 
 export const BoxTop = styled.div`
   display: flex;
-  height: 30%;
-  width: 150px;
+  height: 10%;
+  width: 260px;
   background-color: #f3efe5;
   flex-direction: column;
 `;
 
 export const BoxMiddle = styled.div`
   display: flex;
-  height: 40%;
-  width: 150px;
+  height: 60%;
+  width: 260px;
   background-color: #f3efe5;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const BoxBottom = styled.div`
   display: flex;
-  height: 50px;
-  width: 150px;
+  height: 30%;
+  width: 260px;
   background-color: #f3efe5;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 `;
 
 export const BoxContain = styled.div`
   display: flex;
   height: 100%;
-  width: 150px;
+  width: 200px;
   flex-direction: column;
+
   /* border: 2px solid black; */
 `;
 

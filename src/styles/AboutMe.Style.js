@@ -19,6 +19,9 @@ export const LeftContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
   @media (max-width: 389px) {
     height: 200px;
     width: 100vw;
@@ -40,6 +43,10 @@ export const RightContainer = styled.div`
   height: 450px;
   width: 50%;
   background-color: #011936ff;
+  align-items: center;
+  justify-content: center;
+  padding-right: 300px;
+
   @media (max-width: 389px) {
     height: 300px;
     width: 100vw;

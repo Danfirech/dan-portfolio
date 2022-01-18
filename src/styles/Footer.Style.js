@@ -6,6 +6,7 @@ export const FooterContainer = styled.div`
   width: 100vw;
   @media (max-width: 389px) {
     flex-direction: column;
+    height: 240;
   }
 `;
 
@@ -17,6 +18,7 @@ export const FooterLeftContainer = styled.div`
   justify-content: center;
   @media (max-width: 389px) {
     width: 100vw;
+    height: 60px;
   }
 `;
 
@@ -35,6 +37,7 @@ export const FooterCenterContainer = styled.div`
     justify-content: center;
     padding-left: 0px;
     padding-right: 0px;
+    height: 60px;
   }
 `;
 
@@ -48,6 +51,7 @@ export const FooterRightContainer = styled.div`
   justify-content: center;
   @media (max-width: 389px) {
     width: 100vw;
+    height: 60px;
   }
 `;
 
@@ -59,4 +63,8 @@ export const CardBox = styled.div`
   background-color: #f9dc5cff;
   justify-content: center;
   align-items: center;
+  @media (max-width: 389px) {
+    width: 100vw;
+    height: 60px;
+  }
 `;
