@@ -5,7 +5,6 @@ import {
   FooterRightContainer,
   FooterLeftContainer,
 } from "../styles/Footer.Style";
-import { CardBox } from "../styles/Footer.Style";
 
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -16,10 +15,8 @@ function Footer() {
     <>
       <FooterContainer>
         <FooterLeftContainer>
-          <CardBox>
-            <h1 style={{ fontSize: 15 }}>DanPossehlDesign</h1>
-            <h1 style={{ fontSize: 15 }}>2021</h1>
-          </CardBox>
+          <h1 style={{ fontSize: 15 }}>DanPossehlDesign</h1>
+          <h1 style={{ fontSize: 15 }}>2021</h1>
         </FooterLeftContainer>
         <FooterCenterContainer>
           <h1>
@@ -33,10 +30,8 @@ function Footer() {
           </h1>
         </FooterCenterContainer>
         <FooterRightContainer>
-          <CardBox>
-            <h1 style={{ fontSize: 15 }}>DanielPossehl@hotmail.com</h1>
-            <h1 style={{ fontSize: 15 }}>616-821-0139</h1>
-          </CardBox>
+          <h1 style={{ fontSize: 15 }}>DanielPossehl@hotmail.com</h1>
+          <h1 style={{ fontSize: 15 }}>616-821-0139</h1>
         </FooterRightContainer>
       </FooterContainer>
     </>

@@ -16,6 +16,8 @@ import { FaMobileAlt } from "react-icons/fa";
 import { LineContainer } from "../styles/ShowWork.Style";
 import { Line } from "../styles/ShowWork.Style";
 import { Button } from "../styles/ShowWork.Style";
+import { BlueLine } from "../components/images/BlueLine.png";
+import { Image } from "../styles/ProfilePic.style";
 
 function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
@@ -59,6 +61,18 @@ function WorkPageNew() {
         <Button onClick={thirdButton}>React Native</Button>
         <Button onClick={fourthButton}>API</Button>
       </TopContainer>
+      {/* <div>
+        <Image
+          style={{
+            width: 500,
+            height: 500,
+            paddingTop: 100,
+            overflow: "hidden",
+            paddingRight: 180,
+          }}
+          src={blobOne}
+        />
+      </div> */}
 
       {toggle && (
         <ContainerOneJS>
@@ -68,7 +82,7 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Javscript Scroll Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
@@ -92,7 +106,7 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Javascript Video Project</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
@@ -116,7 +130,9 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>
+                  Javascript Countdown Timer
+                </h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
@@ -143,7 +159,7 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Shopify Bath Bomb's</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
@@ -164,7 +180,7 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>React Agency </h3>
               </BoxMiddle>
               <BoxBottom>
                 <a
@@ -185,7 +201,7 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3 style={{ color: "#011936ff" }}>Covid Testing Site</h3>
               </BoxMiddle>
               <BoxBottom>
                 <a

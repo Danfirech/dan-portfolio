@@ -22,6 +22,7 @@ function ProfilePic() {
 
       <WorkCenterContainer>
         <CardBox>
+          <h1 style={{ fontSize: 70 }}>Tools</h1>
           <WorkTop>
             {/* <FaReact color="Blue" fontSize="2.5em" />
             <DiJavascript color="#f7df1e" fontSize="2.5em" />
@@ -55,8 +56,8 @@ function ProfilePic() {
           </WorkTop>
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>
-              This will be a short paragraph that describes <br /> what type of
-              projects I have created.
+              I am constantly learning new skills to put in my toolbox. Here are
+              a few things I have finished recently!
             </h4>
           </WorkCenter>
           <WorkBottom>

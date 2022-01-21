@@ -21,7 +21,7 @@ function Navbar() {
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/work"> Work</NavbarLink>
+            {/* <NavbarLink to="/work"> Work</NavbarLink> */}
             {/* 
             <NavbarLink to="/about"> About Me</NavbarLink> */}
             <OpenLinksButton

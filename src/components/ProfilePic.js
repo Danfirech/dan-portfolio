@@ -4,6 +4,7 @@ import {
   PageContainer,
   LeftContainer,
   Image,
+  Image2,
   TextBoxOne,
 } from "../styles/ProfilePic.style";
 import Line from "../components/images/Line.png";
@@ -24,14 +25,8 @@ function ProfilePic() {
           </h1>
         </TextBoxOne>
       </LeftContainer>
-      <Image
-        style={{ paddingBottom: 40, width: 2000, height: 700 }}
-        src={Line}
-      />
-      <Image
-        style={{ width: 1800, height: 900, paddingTop: 300, paddingLeft: 900 }}
-        src={DannyBoi}
-      />
+      <Image2 src={Line} />
+      <Image src={DannyBoi} />
     </PageContainer>
   );
 }

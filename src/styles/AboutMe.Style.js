@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const AboutMeContainer = styled.div`
   height: 450px;
   display: flex;
-  @media (max-width: 389px) {
+  @media (max-width: 390px) {
     display: flex;
     flex-direction: column;
     padding-right: 25;
     padding-left: 25;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 100px;
   }
 `;
 
@@ -22,8 +22,8 @@ export const LeftContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding-left: 150px;
-  @media (max-width: 389px) {
-    height: 200px;
+  @media (max-width: 390px) {
+    height: 100px;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -47,8 +47,8 @@ export const RightContainer = styled.div`
   justify-content: center;
   padding-right: 300px;
 
-  @media (max-width: 389px) {
-    height: 300px;
+  @media (max-width: 390px) {
+    height: 100px;
     width: 100vw;
     align-items: center;
     justify-content: center;

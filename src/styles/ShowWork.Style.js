@@ -24,20 +24,20 @@ export const TitleContainer = styled.div`
 `;
 
 export const ContainerOneJS = styled.div`
-  height: 695px;
+  height: 725px;
   weight: 100vw;
   background-color: white;
   align-items: center;
 `;
 
 export const ContainerTwoLanding = styled.div`
-  height: 695px;
+  height: 725px;
   weight: 100vw;
   background-color: white;
 `;
 
 export const ContainerThreeNative = styled.div`
-  height: 695px;
+  height: 725px;
   weight: 100vw;
   background-color: white;
 `;
@@ -86,7 +86,7 @@ export const BoxBottom = styled.div`
 
 export const BoxContain = styled.div`
   display: flex;
-  height: 400px;
+  height: 200px;
   width: 200px;
   flex-direction: column;
 `;
@@ -107,10 +107,11 @@ export const Button = styled.div`
   color: black;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border: 1px solid black;
+  border-radius: 10%;
+  background-color: #036c8c;
+  color: white;
 `;
 
 export const IconImage = styled.img``;

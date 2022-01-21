@@ -14,9 +14,6 @@ function AboutMe() {
   return (
     <>
       <AboutMeContainer>
-        <LeftContainer>
-          <Image2 src={Rami} />
-        </LeftContainer>
         <RightContainer>
           <h1
             style={{

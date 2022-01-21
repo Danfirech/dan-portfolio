@@ -11,7 +11,7 @@ export const Text = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 60px;
-  font-size: 40px;
+  font-size: 60px;
 `;
 
 export const Test = styled.div`
