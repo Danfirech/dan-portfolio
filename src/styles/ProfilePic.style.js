@@ -22,6 +22,7 @@ export const LeftContainer = styled.div`
   display: flex;
   height: 500px;
   width: 100vw;
+  flex-direction: column;
   background-color: white;
   @media (max-width: 390px) {
     width: 100vw;
@@ -33,17 +34,17 @@ export const LeftContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 1800px;
+  width: 600px;
   height: 900px;
   position: relative;
   padding-top: 300px;
-  padding-left: 900px;
+  padding-right: 300px;
   @media (max-width: 390px) {
-    width: 100vw;
-    height: 750px;
+    width: 100px;
+    height: 450px;
     position: relative;
-    justify-content: center;
-    padding-top: 1200px;
+    /* justify-content: center; */
+    padding-top: 1100px;
   }
 `;
 
@@ -69,9 +70,10 @@ export const TextBoxOne = styled.div`
   width: 300px;
   height: 200px;
   background: none;
-  margin-left: 600px;
+  margin-left: 200px;
   position: absolute;
   z-index: 3;
+  flex-direction: column;
   @media (max-width: 390px) {
     margin-left: 100px;
     padding-top: 1700px;
