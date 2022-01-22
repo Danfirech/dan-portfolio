@@ -24,20 +24,20 @@ export const TitleContainer = styled.div`
 `;
 
 export const ContainerOneJS = styled.div`
-  height: 725px;
+  height: 620px;
   weight: 100vw;
   background-color: white;
   align-items: center;
 `;
 
 export const ContainerTwoLanding = styled.div`
-  height: 725px;
+  height: 620px;
   weight: 100vw;
   background-color: white;
 `;
 
 export const ContainerThreeNative = styled.div`
-  height: 725px;
+  height: 620px;
   weight: 100vw;
   background-color: white;
 `;
@@ -68,10 +68,11 @@ export const BoxTop = styled.div`
 export const BoxMiddle = styled.div`
   display: flex;
   height: 60%;
-  width: 260px;
+  width: 318px;
   background-color: white;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding-top: 25px;
 `;
 
 export const BoxBottom = styled.div`
@@ -82,6 +83,7 @@ export const BoxBottom = styled.div`
   justify-content: space-between;
   align-items: center;
   justify-content: center;
+  padding-top: 40px;
 `;
 
 export const BoxContain = styled.div`
@@ -103,15 +105,24 @@ export const Line = styled.div`
 `;
 
 export const Button = styled.div`
-  background-color: white;
   color: black;
-  padding: 15px 32px;
+  width: 180px;
+  height: 40;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 16px;
+  padding-top: 7px;
+  font-size: 26px;
   border: 1px solid black;
   border-radius: 10%;
   background-color: #036c8c;
   color: white;
+`;
+
+export const ProjectPic = styled.div`
+  height: 300px;
+  width: 300px;
+  border-width: 2px;
 `;
 
 export const IconImage = styled.img``;

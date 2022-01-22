@@ -76,7 +76,7 @@ export const WorkCenter = styled.div`
   display: flex;
   background-color: white;
   height: 33.33%;
-  width: 100%;
+  width: 400px;
   align-items: center;
   justify-content: center;
   @media (min-width: 390px) {

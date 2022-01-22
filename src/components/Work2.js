@@ -28,7 +28,7 @@ function ProfilePic() {
             <DiJavascript color="#f7df1e" fontSize="2.5em" />
             <SiJavascript color="#f7df1e" fontSize="2.5em" />
             <AiOutlineConsoleSql color="#f7df1e" fontSize="2.5em" /> */}
-            <img src="https://img.icons8.com/material-rounded/24/000000/code.png" />
+            {/* <img src="https://img.icons8.com/material-rounded/24/000000/code.png" /> */}
             <img
               style={{ paddingLeft: 5, paddingRight: 5 }}
               src="https://img.icons8.com/color/48/000000/javascript--v1.png"
@@ -49,10 +49,10 @@ function ProfilePic() {
               style={{ paddingLeft: 5, paddingRight: 5 }}
               src="https://img.icons8.com/cute-clipart/43/000000/react-native.png"
             />
-            <img
+            {/* <img
               style={{ paddingLeft: 5, paddingRight: 5 }}
               src="https://img.icons8.com/fluency-systems-regular/24/000000/code.png"
-            />
+            /> */}
           </WorkTop>
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>

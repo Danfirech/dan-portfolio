@@ -16,8 +16,8 @@ import { FaMobileAlt } from "react-icons/fa";
 import { LineContainer } from "../styles/ShowWork.Style";
 import { Line } from "../styles/ShowWork.Style";
 import { Button } from "../styles/ShowWork.Style";
-import { BlueLine } from "../components/images/BlueLine.png";
-import { Image } from "../styles/ProfilePic.style";
+import Pic from "../components/images/ScreenShot.png";
+import { ProjectPic } from "../styles/ShowWork.Style";
 
 function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
@@ -82,8 +82,21 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Javscript Scroll Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Javscript Scroll Project
+                </h3>
               </BoxMiddle>
+
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
+
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -106,8 +119,19 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Javascript Video Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Javascript Video Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -130,10 +154,19 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
                   Javascript Countdown Timer
                 </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -159,8 +192,19 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Shopify Bath Bomb's</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Shopify Bath Bomb's
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -180,8 +224,19 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>React Agency </h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  React Agency{" "}
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -201,8 +256,19 @@ function WorkPageNew() {
                 <DiReact color="#61DBFB" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Covid Testing Site</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Covid Testing Site
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -229,8 +295,19 @@ function WorkPageNew() {
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -250,8 +327,19 @@ function WorkPageNew() {
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -271,8 +359,19 @@ function WorkPageNew() {
                 <FaMobileAlt color="black" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -298,8 +397,19 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -319,8 +429,20 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
+
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"
@@ -340,8 +462,19 @@ function WorkPageNew() {
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
               </BoxTop>
               <BoxMiddle>
-                <h3 style={{ color: "#011936ff" }}>Title of Project</h3>
+                <h3
+                  style={{
+                    color: "#011936ff",
+                    fontSize: 28,
+                    paddingBottom: 30,
+                  }}
+                >
+                  Title of Project
+                </h3>
               </BoxMiddle>
+              <ProjectPic>
+                <img src={Pic} height={100} width={300} />
+              </ProjectPic>
               <BoxBottom>
                 <a
                   href="https://www.applevacations.com/#!/"

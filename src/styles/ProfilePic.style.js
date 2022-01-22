@@ -34,8 +34,8 @@ export const LeftContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 600px;
-  height: 900px;
+  width: 500px;
+  height: 1100px;
   position: relative;
   padding-top: 300px;
   padding-right: 300px;
@@ -74,11 +74,14 @@ export const TextBoxOne = styled.div`
   position: absolute;
   z-index: 3;
   flex-direction: column;
+  font-family: "Quicksand";
+  padding-top: 100px;
   @media (max-width: 390px) {
     margin-left: 100px;
     padding-top: 1700px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: "Quicksand";
   }
 `;
