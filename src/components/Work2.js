@@ -57,7 +57,7 @@ function ProfilePic() {
           <WorkCenter>
             <h4 style={{ fontSize: 25 }}>
               I am constantly learning new skills to put in my toolbox. Here are
-              a few things I have finished recently!
+              a few things I have recently worked on.
             </h4>
           </WorkCenter>
           <WorkBottom>

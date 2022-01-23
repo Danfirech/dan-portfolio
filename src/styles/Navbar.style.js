@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
   width: 100vw;
-  height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
+  height: ${(props) => (props.extendNavbar ? "180px" : "180px")};
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
-    height: 80px;
+    height: 120px;
   }
 `;
 
@@ -54,7 +54,7 @@ export const NavbarLink = styled(Link)`
 `;
 
 export const NavbarLinkExtended = styled(Link)`
-  color: white;
+  color: black;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -73,7 +73,7 @@ export const OpenLinksButton = styled.button`
   height: 50px;
   background: none;
   border: none;
-  color: white;
+  color: black;
   font-size: 45px;
   cursor: pointer;
   @media (min-width: 1060px) {
@@ -84,7 +84,7 @@ export const OpenLinksButton = styled.button`
 export const NavbarExtendedContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   @media (min-width: 1060px) {
     display: none;
     color: #000522;

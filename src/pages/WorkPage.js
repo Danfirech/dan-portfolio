@@ -59,7 +59,7 @@ function WorkPageNew() {
         <Button onClick={firstButton}>Javascript</Button>
         <Button onClick={secondButton}>Landing Pages</Button>
         <Button onClick={thirdButton}>React Native</Button>
-        <Button onClick={fourthButton}>API</Button>
+        {/* <Button onClick={fourthButton}>API</Button> */}
       </TopContainer>
       {/* <div>
         <Image
@@ -94,7 +94,7 @@ function WorkPageNew() {
               </BoxMiddle>
 
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={Pic} height={200} width={300} />
               </ProjectPic>
 
               <BoxBottom>
@@ -111,9 +111,9 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <LineContainer>
+            {/* <LineContainer>
               <Line />
-            </LineContainer>
+            </LineContainer> */}
             <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
@@ -130,7 +130,7 @@ function WorkPageNew() {
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={Pic} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -146,9 +146,9 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <LineContainer>
+            {/* <LineContainer>
               <Line />
-            </LineContainer>
+            </LineContainer> */}
             <BoxContain>
               <BoxTop>
                 <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
@@ -165,7 +165,7 @@ function WorkPageNew() {
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={Pic} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a

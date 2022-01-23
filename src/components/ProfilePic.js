@@ -14,11 +14,10 @@ function ProfilePic() {
     <PageContainer>
       <LeftContainer>
         <TextBoxOne>
-          <h1 style={{ fontSize: 50 }}>Designer by day Dancer by night....</h1>
+          <h1 style={{ fontSize: 50 }}>Designer By Day Dancer By Night....</h1>
           <h1 style={{ fontSize: 20, paddingTop: 45 }}>
-            Let me create you something beutiful and user friendly. With a
-            constant passion for furthering my knowledge odds are your
-            application will be better tomorrow then it is today!
+            I create simple, clean, user friendly web applications. I like to
+            have fun while doing so!
           </h1>
         </TextBoxOne>
       </LeftContainer>

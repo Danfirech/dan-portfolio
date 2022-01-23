@@ -38,8 +38,8 @@ function Navbar() {
       {extendNavbar && (
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/work">Work</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about"> About Me</NavbarLinkExtended>
+          {/* <NavbarLinkExtended to="/work">Work</NavbarLinkExtended> */}
+          {/* <NavbarLinkExtended to="/about"> About Me</NavbarLinkExtended> */}
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

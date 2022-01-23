@@ -11,6 +11,7 @@ export const FooterContainer = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-top: 1300px;
   }
 `;
 
