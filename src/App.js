@@ -16,7 +16,6 @@ import AboutMePage from "./pages/AboutMePage";
 import WorkPage from "./pages/WorkPage";
 import JavascriptPage from "./pages/WorkTypePages/JavascriptPage";
 import LandingPage from "./pages/WorkTypePages/LandingPage";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/lp" element={<LandingPage />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
-        <Footer />
       </Router>
     </>
   );

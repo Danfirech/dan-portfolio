@@ -1,24 +1,24 @@
 import React from "react";
 import {
-  FooterContainer,
-  FooterCenterContainer,
-  FooterRightContainer,
-  FooterLeftContainer,
-} from "../styles/Footer.style";
+  FooterContainerTwo,
+  FooterCenterContainerTwo,
+  FooterRightContainerTwo,
+  FooterLeftContainerTwo,
+} from "../styles/FooterTwo.style";
 
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 
-function Footer() {
+function FooterTwo() {
   return (
     <>
-      <FooterContainer>
-        <FooterLeftContainer>
+      <FooterContainerTwo>
+        <FooterLeftContainerTwo>
           <h1 style={{ fontSize: 15 }}>DanPossehlDesign</h1>
-          <h1 style={{ fontSize: 15 }}>2022</h1>
-        </FooterLeftContainer>
-        <FooterCenterContainer>
+          <h1 style={{ fontSize: 15 }}>202222222222222</h1>
+        </FooterLeftContainerTwo>
+        <FooterCenterContainerTwo>
           <h1>
             <BsLinkedin />
           </h1>
@@ -28,14 +28,14 @@ function Footer() {
           <h1>
             <BsFacebook />
           </h1>
-        </FooterCenterContainer>
-        <FooterRightContainer>
+        </FooterCenterContainerTwo>
+        <FooterRightContainerTwo>
           <h1 style={{ fontSize: 15 }}>DanielPossehl@hotmail.com</h1>
           <h1 style={{ fontSize: 15 }}>616-821-0139</h1>
-        </FooterRightContainer>
-      </FooterContainer>
+        </FooterRightContainerTwo>
+      </FooterContainerTwo>
     </>
   );
 }
 
-export default Footer;
+export default FooterTwo;

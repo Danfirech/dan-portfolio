@@ -30,6 +30,7 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
+    padding-right: 150px;
   }
 `;
 
@@ -43,14 +44,15 @@ export const Image = styled.img`
     width: 100px;
     height: 450px;
     position: relative;
-    /* justify-content: center; */
-    padding-top: 1100px;
+    padding-top: 1000px;
+    padding-right: 0px;
+    padding-bottom: 100px;
   }
 `;
 
 export const Image2 = styled.img`
   width: 100vw;
-  height: 1100px;
+  height: 1000px;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -61,6 +63,7 @@ export const Image2 = styled.img`
     justify-content: center;
     align-items: center;
     padding-top: 1100px;
+    padding-bottom: 200px;
   }
 `;
 
@@ -77,7 +80,6 @@ export const TextBoxOne = styled.div`
   font-family: "Quicksand";
   padding-top: 100px;
   @media (max-width: 390px) {
-    margin-left: 100px;
     padding-top: 1700px;
     align-items: center;
     justify-content: center;

@@ -13,11 +13,10 @@ import { BsGithub } from "react-icons/bs";
 import { DiJavascript1 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { FaMobileAlt } from "react-icons/fa";
-import { LineContainer } from "../styles/ShowWork.Style";
-import { Line } from "../styles/ShowWork.Style";
 import { Button } from "../styles/ShowWork.Style";
 import Pic from "../components/images/ScreenShot.png";
 import { ProjectPic } from "../styles/ShowWork.Style";
+import FooterTwo from "../components/FooterTwo";
 
 function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
@@ -492,6 +491,7 @@ function WorkPageNew() {
           </Width2>
         </ContainerThreeNative>
       )}
+      <FooterTwo />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.div`
+export const FooterContainerTwo = styled.div`
   display: flex;
   height: 100px;
   width: 100vw;
@@ -11,11 +11,11 @@ export const FooterContainer = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 1280px;
   }
 `;
 
-export const FooterLeftContainer = styled.div`
+export const FooterLeftContainerTwo = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;
@@ -32,7 +32,7 @@ export const FooterLeftContainer = styled.div`
   }
 `;
 
-export const FooterCenterContainer = styled.div`
+export const FooterCenterContainerTwo = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;
@@ -52,7 +52,7 @@ export const FooterCenterContainer = styled.div`
   }
 `;
 
-export const FooterRightContainer = styled.div`
+export const FooterRightContainerTwo = styled.div`
   display: flex;
   height: 120px;
   width: 33.3%;

@@ -10,7 +10,7 @@ export const WorkPageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 100px;
     width: 100vw;
     padding-top: 750px;
   }
@@ -86,6 +86,7 @@ export const WorkCenter = styled.div`
     padding-top: 50px;
     padding-bottom: 80px;
     height: 100px;
+    width: 200px;
   }
 `;
 
