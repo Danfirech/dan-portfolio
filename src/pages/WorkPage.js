@@ -120,7 +120,12 @@ function WorkPageNew() {
                 >
                   View
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/js10-scroll"
+                  target="https://github.com/Danfirech/js10-scroll"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
             {/* <LineContainer>
@@ -157,7 +162,12 @@ function WorkPageNew() {
                 >
                   View
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/js9-video"
+                  target="https://github.com/Danfirech/js9-video"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
             {/* <LineContainer>
@@ -194,7 +204,12 @@ function WorkPageNew() {
                 >
                   View
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/js12-countdowntimer"
+                  target="https://github.com/Danfirech/js12-countdowntimer"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
           </Width2>
