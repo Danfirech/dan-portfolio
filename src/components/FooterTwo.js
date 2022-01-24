@@ -16,7 +16,7 @@ function FooterTwo() {
       <FooterContainerTwo>
         <FooterLeftContainerTwo>
           <h1 style={{ fontSize: 15 }}>DanPossehlDesign</h1>
-          <h1 style={{ fontSize: 15 }}>202222222222222</h1>
+          <h1 style={{ fontSize: 15 }}>2022</h1>
         </FooterLeftContainerTwo>
         <FooterCenterContainerTwo>
           <h1>

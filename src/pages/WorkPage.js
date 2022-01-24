@@ -14,9 +14,19 @@ import { DiJavascript1 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { FaMobileAlt } from "react-icons/fa";
 import { Button } from "../styles/ShowWork.Style";
-import Pic from "../components/images/ScreenShot.png";
+import NextJsLandingPage from "../components/images/NextJsLandingPage.png";
 import { ProjectPic } from "../styles/ShowWork.Style";
 import FooterTwo from "../components/FooterTwo";
+import { Line } from "../styles/ShowWork.Style";
+import { LineContainer } from "../styles/ShowWork.Style";
+import JSScroll from "../components/images/JSScroll.png";
+import JSVideo from "../components/images/JSVideo.png";
+import JSCountdown from "../components/images/JScountdown.png";
+import LPBathBomb from "../components/images/LPBathBomb.png";
+import LPCovidTesting from "../components/images/LPCovidTesting.png";
+import RNQuote from "../components/images/RNQuote.png";
+import RNTask from "../components/images/RNTask.png";
+import RNGame from "../components/images/RNGame.png";
 
 function WorkPageNew() {
   const [toggle, setToggle] = useState(true);
@@ -77,15 +87,16 @@ function WorkPageNew() {
         <ContainerOneJS>
           <Width2>
             <BoxContain>
-              <BoxTop>
-                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
+
               <BoxMiddle>
+                <img src="https://img.icons8.com/color/85/000000/javascript--v1.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
                   Javscript Scroll Project
@@ -93,16 +104,18 @@ function WorkPageNew() {
               </BoxMiddle>
 
               <ProjectPic>
-                <img src={Pic} height={200} width={300} />
+                <img src={JSScroll} height={200} width={300} />
               </ProjectPic>
 
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href="https://javscriptscroll.netlify.app"
+                  target="https://javscriptscroll.netlify.app"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -114,30 +127,32 @@ function WorkPageNew() {
               <Line />
             </LineContainer> */}
             <BoxContain>
-              <BoxTop>
-                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/color/85/000000/javascript--v1.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
                   Javascript Video Project
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={200} width={300} />
+                <img src={JSVideo} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href="https://javscriptvideo.netlify.app"
+                  target="https://javscriptvideo.netlify.app"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -149,30 +164,32 @@ function WorkPageNew() {
               <Line />
             </LineContainer> */}
             <BoxContain>
-              <BoxTop>
-                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/color/85/000000/javascript--v1.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
                   Javascript Countdown Timer
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={200} width={300} />
+                <img src={JSCountdown} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href="https://javscriptcountdown.netlify.app"
+                  target="https://javscriptcountdown.netlify.app"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -187,30 +204,32 @@ function WorkPageNew() {
         <ContainerTwoLanding>
           <Width2>
             <BoxContain>
-              <BoxTop>
-                <DiReact color="#61DBFB" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/officel/80/000000/react.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
                   Shopify Bath Bomb's
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={LPBathBomb} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href="https://danpossehlbathbomb.netlify.app"
+                  target="https://danpossehlbathbomb.netlify.app"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -219,22 +238,22 @@ function WorkPageNew() {
               </BoxBottom>
             </BoxContain>
             <BoxContain>
-              <BoxTop>
-                <DiReact color="#61DBFB" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/officel/80/000000/react.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
-                  React Agency{" "}
+                  Next.JS Landing Page
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={NextJsLandingPage} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -243,6 +262,7 @@ function WorkPageNew() {
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -251,30 +271,32 @@ function WorkPageNew() {
               </BoxBottom>
             </BoxContain>
             <BoxContain>
-              <BoxTop>
-                <DiReact color="#61DBFB" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/officel/80/000000/react.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
                   Covid Testing Site
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={LPCovidTesting} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href="https://covidsitedanandnat.netlify.app"
+                  target="https://covidsitedanandnat.netlify.app"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
                 >
                   View
@@ -290,22 +312,22 @@ function WorkPageNew() {
         <ContainerThreeNative>
           <Width2>
             <BoxContain>
-              <BoxTop>
-                <FaMobileAlt color="black" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/wired/80/000000/cell-phone.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
-                  Title of Project
+                  React Native Quote Generator App
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={RNQuote} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -314,30 +336,29 @@ function WorkPageNew() {
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
-                >
-                  View
-                </a>
+                ></a>
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
             <BoxContain>
-              <BoxTop>
-                <FaMobileAlt color="black" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/wired/80/000000/cell-phone.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
-                  Title of Project
+                  React Native Pick A Number Game App
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={RNGame} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -346,30 +367,29 @@ function WorkPageNew() {
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
-                >
-                  View
-                </a>
+                ></a>
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
             <BoxContain>
-              <BoxTop>
-                <FaMobileAlt color="black" fontSize="2.5em" />
-              </BoxTop>
+              <BoxTop></BoxTop>
               <BoxMiddle>
+                <img src="https://img.icons8.com/wired/80/000000/cell-phone.png" />
                 <h3
                   style={{
                     color: "#011936ff",
                     fontSize: 28,
                     paddingBottom: 30,
+                    paddingTop: 30,
                   }}
                 >
-                  Title of Project
+                  React Native Task Manager App
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={RNTask} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -378,17 +398,16 @@ function WorkPageNew() {
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
+                    fontSize: "30px",
                   }}
-                >
-                  View
-                </a>
+                ></a>
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
           </Width2>
         </ContainerThreeNative>
       )}
-      {toggle4 && (
+      {/* {toggle4 && (
         <ContainerThreeNative>
           <Width2>
             <BoxContain>
@@ -407,7 +426,7 @@ function WorkPageNew() {
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={Pic} height={200} width={300} />
               </ProjectPic>
               <BoxBottom>
                 <a
@@ -439,7 +458,7 @@ function WorkPageNew() {
                 </h3>
               </BoxMiddle>
               <ProjectPic>
-                <img src={Pic} height={100} width={300} />
+                <img src={Pic} height={400} width={200} />
               </ProjectPic>
 
               <BoxBottom>
@@ -456,41 +475,9 @@ function WorkPageNew() {
                 <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
-            <BoxContain>
-              <BoxTop>
-                <DiJavascript1 color="#f7df1e" fontSize="2.5em" />
-              </BoxTop>
-              <BoxMiddle>
-                <h3
-                  style={{
-                    color: "#011936ff",
-                    fontSize: 28,
-                    paddingBottom: 30,
-                  }}
-                >
-                  Title of Project
-                </h3>
-              </BoxMiddle>
-              <ProjectPic>
-                <img src={Pic} height={100} width={300} />
-              </ProjectPic>
-              <BoxBottom>
-                <a
-                  href="https://www.applevacations.com/#!/"
-                  style={{
-                    textDecoration: "none",
-                    color: "#011936ff",
-                    paddingRight: "50px",
-                  }}
-                >
-                  View
-                </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
-              </BoxBottom>
-            </BoxContain>
           </Width2>
         </ContainerThreeNative>
-      )}
+      )} */}
       <FooterTwo />
     </>
   );
