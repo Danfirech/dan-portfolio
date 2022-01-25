@@ -7,7 +7,7 @@ import {
   TextBoxOne,
 } from "../styles/ProfilePic.style";
 import Line from "../components/images/Line.png";
-import Dan from "../components/images/Dan.png";
+import dan from "../components/images/dan.png";
 
 function ProfilePic() {
   return (
@@ -22,7 +22,7 @@ function ProfilePic() {
         </TextBoxOne>
       </LeftContainer>
       <Image2 src={Line} />
-      <Image src={Dan} />
+      <Image src={dan} />
     </PageContainer>
   );
 }
