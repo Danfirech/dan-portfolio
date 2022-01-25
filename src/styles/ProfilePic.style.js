@@ -63,7 +63,7 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 150px;
+    padding-right: 550px;
     height: 1200px;
   }
 `;
@@ -110,8 +110,8 @@ export const Image2 = styled.img`
     width: 100vw;
     height: 350px;
     position: absolute;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding-top: 1100px;
     padding-bottom: 200px;
   }
@@ -119,8 +119,8 @@ export const Image2 = styled.img`
     width: 100vw;
     height: 350px;
     position: absolute;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding-top: 1100px;
     padding-bottom: 200px;
   }
