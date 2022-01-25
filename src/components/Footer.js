@@ -6,10 +6,6 @@ import {
   FooterLeftContainer,
 } from "../styles/Footer.style";
 
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-
 function Footer() {
   return (
     <>
