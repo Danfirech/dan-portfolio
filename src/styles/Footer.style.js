@@ -12,6 +12,13 @@ export const FooterContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    height: 280px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const FooterLeftContainer = styled.div`
@@ -23,6 +30,13 @@ export const FooterLeftContainer = styled.div`
   flex-direction: column;
   align-items: center;
   @media (max-width: 390px) {
+    width: 100vw;
+    height: 33.3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 480px) {
     width: 100vw;
     height: 33.3%;
     align-items: center;
@@ -49,6 +63,14 @@ export const FooterCenterContainer = styled.div`
     padding-left: 0px;
     padding-right: 0px;
   }
+  @media (max-width: 480px) {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 33.3%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 `;
 
 export const FooterRightContainer = styled.div`
@@ -60,6 +82,13 @@ export const FooterRightContainer = styled.div`
   flex-direction: column;
   align-items: center;
   @media (max-width: 390px) {
+    width: 100vw;
+    height: 33.3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 480px) {
     width: 100vw;
     height: 33.3%;
     align-items: center;

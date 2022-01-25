@@ -12,6 +12,15 @@ export const AboutMeContainer = styled.div`
     justify-content: center;
     height: 100px;
   }
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25;
+    padding-left: 25;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
 `;
 
 export const LeftContainer = styled.div`
@@ -23,6 +32,13 @@ export const LeftContainer = styled.div`
   justify-content: center;
   padding-left: 150px;
   @media (max-width: 390px) {
+    height: 100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  @media (max-width: 480px) {
     height: 100px;
     width: 100vw;
     align-items: center;
@@ -48,6 +64,14 @@ export const RightContainer = styled.div`
   padding-right: 300px;
 
   @media (max-width: 390px) {
+    height: 100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  @media (max-width: 480px) {
     height: 100px;
     width: 100vw;
     align-items: center;
