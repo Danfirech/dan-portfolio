@@ -22,7 +22,7 @@ function ProfilePic() {
         </TextBoxOne>
       </LeftContainer>
       <Image2 src={Line} />
-      {/* <Image src={dan} /> */}
+      <Image src={dan} />
     </PageContainer>
   );
 }

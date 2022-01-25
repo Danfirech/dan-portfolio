@@ -14,7 +14,8 @@ export const PageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1500px;
+    height: 500px;
+    padding-top: 500px;
   }
 
   @media (max-width: 480px) {
@@ -23,7 +24,8 @@ export const PageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 500px;
+    padding-top: 500px;
   }
   @media (max-width: 1300px) {
     width: 100vw;
@@ -31,7 +33,8 @@ export const PageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1000px;
+    height: 500px;
+    padding-top: 500px;
   }
 `;
 
@@ -47,7 +50,7 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 550px;
+    padding-right: 1800px;
   }
   @media (max-width: 480px) {
     width: 100vw;
@@ -55,7 +58,8 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 550px;
+    padding-right: 250px;
+    height: 600px;
   }
   @media (max-width: 1300px) {
     width: 100vw;
@@ -63,8 +67,8 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 550px;
-    height: 1200px;
+    padding-right: 180px;
+    height: 600px;
   }
 `;
 
@@ -80,7 +84,7 @@ export const Image = styled.img`
     position: relative;
     padding-top: 1000px;
     padding-right: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 820px;
   }
   @media (max-width: 480px) {
     width: 100px;
@@ -88,7 +92,7 @@ export const Image = styled.img`
     position: relative;
     padding-top: 1000px;
     padding-right: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 820px;
   }
   @media (max-width: 1300px) {
     width: 100px;
@@ -96,7 +100,7 @@ export const Image = styled.img`
     position: relative;
     padding-top: 1000px;
     padding-right: 0px;
-    padding-bottom: 170px;
+    padding-bottom: 890px;
   }
 `;
 
@@ -113,7 +117,7 @@ export const Image2 = styled.img`
     /* justify-content: center;
     align-items: center; */
     padding-top: 1100px;
-    padding-bottom: 200px;
+    padding-bottom: 920px;
   }
   @media (max-width: 480px) {
     width: 100vw;
@@ -122,7 +126,7 @@ export const Image2 = styled.img`
     /* justify-content: center;
     align-items: center; */
     padding-top: 1100px;
-    padding-bottom: 200px;
+    padding-bottom: 920px;
   }
   @media (max-width: 1300px) {
     width: 100vw;
@@ -131,7 +135,7 @@ export const Image2 = styled.img`
     justify-content: center;
     align-items: center;
     padding-top: 1100px;
-    padding-bottom: 250px;
+    padding-bottom: 970px;
   }
 `;
 
@@ -155,14 +159,14 @@ export const TextBoxOne = styled.div`
     font-family: "Quicksand";
   }
   @media (max-width: 480px) {
-    padding-top: 1700px;
+    padding-top: 1200px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: "Quicksand";
   }
   @media (max-width: 1300px) {
-    padding-top: 1700px;
+    padding-top: 1200px;
     align-items: center;
     justify-content: center;
     flex-direction: column;

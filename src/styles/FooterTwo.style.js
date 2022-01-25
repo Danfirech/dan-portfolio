@@ -13,6 +13,14 @@ export const FooterContainerTwo = styled.div`
     justify-content: center;
     padding-top: 1150px;
   }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    height: 280px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1150px;
+  }
 `;
 
 export const FooterLeftContainerTwo = styled.div`
@@ -24,6 +32,13 @@ export const FooterLeftContainerTwo = styled.div`
   flex-direction: column;
   align-items: center;
   @media (max-width: 390px) {
+    width: 100vw;
+    height: 33.3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 1000px) {
     width: 100vw;
     height: 33.3%;
     align-items: center;
@@ -50,6 +65,14 @@ export const FooterCenterContainerTwo = styled.div`
     padding-left: 0px;
     padding-right: 0px;
   }
+  @media (max-width: 1000px) {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 33.3%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 `;
 
 export const FooterRightContainerTwo = styled.div`
@@ -61,6 +84,13 @@ export const FooterRightContainerTwo = styled.div`
   flex-direction: column;
   align-items: center;
   @media (max-width: 390px) {
+    width: 100vw;
+    height: 33.3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 1000px) {
     width: 100vw;
     height: 33.3%;
     align-items: center;

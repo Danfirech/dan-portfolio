@@ -20,7 +20,7 @@ export const WorkPageContainer = styled.div`
     justify-content: center;
     height: 300px;
     width: 100vw;
-    padding-top: 750px;
+    padding-top: 250px;
   }
 `;
 

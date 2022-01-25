@@ -16,6 +16,15 @@ export const TopContainer = styled.div`
     width: 100vw;
     padding-left: 0px;
   }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding-bottom: 90px;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 150px;
+    width: 100vw;
+    padding-left: 0px;
+  }
 `;
 export const TitleContainer = styled.div`
   display: flex;
@@ -23,6 +32,17 @@ export const TitleContainer = styled.div`
   height: 50px;
   width: 100vw;
   @media (max-width: 390px) {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100vw;
+    padding-bottom: 5px;
+  }
+  @media (max-width: 1000px) {
     flex-direction: column;
     justify-content: space-between;
     align-items: space-between;
@@ -74,6 +94,15 @@ export const Width2 = styled.div`
     padding-left: 0px;
     height: 1280px;
   }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    weight: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 1280px;
+  }
 `;
 
 export const BoxTop = styled.div`
@@ -106,6 +135,15 @@ export const BoxMiddle = styled.div`
     padding-left: 80px;
     height: 300px;
   }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    padding-right: 0px;
+    padding-left: 80px;
+    height: 300px;
+  }
 `;
 
 export const BoxBottom = styled.div`
@@ -124,6 +162,13 @@ export const BoxBottom = styled.div`
     width: 100vw;
     padding-bottom: 230px;
   }
+  @media (max-width: 1000px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 230px;
+  }
 `;
 
 export const BoxContain = styled.div`
@@ -132,6 +177,16 @@ export const BoxContain = styled.div`
   width: 200px;
   flex-direction: column;
   @media (max-width: 390px) {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 300px;
+    height: 300px;
+  }
+  @media (max-width: 1000px) {
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
@@ -194,6 +249,15 @@ export const ProjectPic = styled.div`
   width: 200px;
   border-width: 2px;
   @media (max-width: 390px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
