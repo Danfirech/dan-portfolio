@@ -249,7 +249,12 @@ function WorkPageNew() {
                 >
                   View
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/shopify-store"
+                  target="https://github.com/Danfirech/shopify-store"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
             <BoxContain>
@@ -272,17 +277,20 @@ function WorkPageNew() {
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
+                  href=""
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
                     paddingRight: "50px",
                     fontSize: "30px",
                   }}
+                ></a>
+                <a
+                  href="https://github.com/Danfirech/njs-Landing-page"
+                  target="https://github.com/Danfirech/njs-Landing-page"
                 >
-                  View
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
               </BoxBottom>
             </BoxContain>
             <BoxContain>
@@ -316,7 +324,12 @@ function WorkPageNew() {
                 >
                   View
                 </a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/covid-landingpage"
+                  target="https://github.com/Danfirech/covid-landingpage"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
           </Width2>
@@ -346,7 +359,6 @@ function WorkPageNew() {
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
@@ -354,7 +366,12 @@ function WorkPageNew() {
                     fontSize: "30px",
                   }}
                 ></a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/rn-dansapp1/blob/master/App.js"
+                  target="https://github.com/Danfirech/rn-dansapp1/blob/master/App.js"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
             <BoxContain>
@@ -377,7 +394,6 @@ function WorkPageNew() {
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
@@ -385,7 +401,12 @@ function WorkPageNew() {
                     fontSize: "30px",
                   }}
                 ></a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/rn-section4"
+                  target="https://github.com/Danfirech/rn-section4"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
             <BoxContain>
@@ -408,7 +429,6 @@ function WorkPageNew() {
               </ProjectPic>
               <BoxBottom>
                 <a
-                  href="https://www.applevacations.com/#!/"
                   style={{
                     textDecoration: "none",
                     color: "#011936ff",
@@ -416,7 +436,12 @@ function WorkPageNew() {
                     fontSize: "30px",
                   }}
                 ></a>
-                <BsGithub color=" #011936ff" fontSize="2.5em" />
+                <a
+                  href="https://github.com/Danfirech/rn-first-app"
+                  target="https://github.com/Danfirech/rn-first-app"
+                >
+                  <BsGithub color=" #011936ff" fontSize="2.5em" />
+                </a>
               </BoxBottom>
             </BoxContain>
           </Width2>

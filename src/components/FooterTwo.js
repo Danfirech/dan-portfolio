@@ -20,13 +20,20 @@ function FooterTwo() {
         </FooterLeftContainerTwo>
         <FooterCenterContainerTwo>
           <h1>
-            <BsLinkedin />
+            <a
+              href="https://www.linkedin.com/in/daniel-possehl-a2aa24b4/"
+              target="https://www.linkedin.com/in/daniel-possehl-a2aa24b4/"
+            >
+              <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" />
+            </a>
           </h1>
           <h1>
-            <BsGithub />
-          </h1>
-          <h1>
-            <BsFacebook />
+            <a
+              href="https://github.com/Danfirech"
+              target="https://github.com/Danfirech"
+            >
+              <img src="https://img.icons8.com/ios-glyphs/55/000000/github.png" />
+            </a>
           </h1>
         </FooterCenterContainerTwo>
         <FooterRightContainerTwo>

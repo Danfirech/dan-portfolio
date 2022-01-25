@@ -6,8 +6,7 @@ export const TopContainer = styled.div`
   width: 100vw;
   background-color: white;
   align-items: center;
-  justify-content: center;
-  padding-left: 40px;
+  justify-content: space-between;
   @media (max-width: 390px) {
     flex-direction: column;
     padding-bottom: 90px;
@@ -23,7 +22,6 @@ export const TitleContainer = styled.div`
   flex-direction: row;
   height: 50px;
   width: 100vw;
-  background-color: pink;
   @media (max-width: 390px) {
     flex-direction: column;
     justify-content: space-between;
