@@ -15,6 +15,7 @@ export const PageContainer = styled.div`
     align-items: center;
     justify-content: center;
     height: 100px;
+    height: 1500px;
   }
 
   @media (max-width: 480px) {
@@ -24,6 +25,14 @@ export const PageContainer = styled.div`
     align-items: center;
     justify-content: center;
     height: 100px;
+  }
+  @media (max-width: 1300px) {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 1000px;px;
   }
 `;
 
@@ -49,6 +58,15 @@ export const LeftContainer = styled.div`
     justify-content: center;
     padding-right: 150px;
   }
+  @media (max-width: 1300px) {
+    width: 100vw;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    height: 1200px;
+  }
 `;
 
 export const Image = styled.img`
@@ -72,6 +90,14 @@ export const Image = styled.img`
     padding-top: 1000px;
     padding-right: 0px;
     padding-bottom: 100px;
+  }
+  @media (max-width: 1300px) {
+    width: 100px;
+    height: 450px;
+    position: relative;
+    padding-top: 1000px;
+    padding-right: 0px;
+    padding-bottom: 170px;
   }
 `;
 
@@ -99,6 +125,15 @@ export const Image2 = styled.img`
     padding-top: 1100px;
     padding-bottom: 200px;
   }
+  @media (max-width: 1300px) {
+    width: 100vw;
+    height: 350px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1100px;
+    padding-bottom: 250px;
+  }
 `;
 
 export const TextBoxOne = styled.div`
@@ -121,6 +156,13 @@ export const TextBoxOne = styled.div`
     font-family: "Quicksand";
   }
   @media (max-width: 480px) {
+    padding-top: 1700px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Quicksand";
+  }
+  @media (max-width: 1300px) {
     padding-top: 1700px;
     align-items: center;
     justify-content: center;
