@@ -14,6 +14,14 @@ export const WorkPageContainer = styled.div`
     width: 100vw;
     padding-top: 750px;
   }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100vw;
+    padding-top: 750px;
+  }
 `;
 
 export const CardBox = styled.div`
@@ -30,6 +38,13 @@ export const CardBox = styled.div`
     height: 100px;
     padding-top: 40px;
   }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding-top: 40px;
+  }
 `;
 
 export const Divider = styled.div`
@@ -38,6 +53,9 @@ export const Divider = styled.div`
   height: 400px;
   padding-top: 100px;
   @media (max-width: 390px) {
+    display: none;
+  }
+  @media (max-width: 480px) {
     display: none;
   }
 `;
@@ -54,6 +72,11 @@ export const WorkTop = styled.div`
     justify-content: center;
     height: 300px;
   }
+  @media (min-width: 480px) {
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
 `;
 
 export const WorkCenterContainer = styled.div`
@@ -69,6 +92,13 @@ export const WorkCenterContainer = styled.div`
     align-items: center;
     justify-content: center;
     height: 100px;
+  }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
   }
 `;
 
@@ -88,6 +118,15 @@ export const WorkCenter = styled.div`
     height: 100px;
     width: 200px;
   }
+  @media (min-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    height: 300px;
+    width: 200px;
+  }
 `;
 
 export const WorkBottom = styled.div`
@@ -103,6 +142,12 @@ export const WorkBottom = styled.div`
     align-items: center;
     justify-content: center;
     height: 20px;
+  }
+  @media (min-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
   }
 `;
 

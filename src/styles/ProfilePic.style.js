@@ -14,7 +14,6 @@ export const PageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
     height: 1500px;
   }
 
@@ -32,7 +31,7 @@ export const PageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   height: 1000px;px;
+    height: 1000px;
   }
 `;
 
@@ -48,7 +47,7 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 150px;
+    padding-right: 550px;
   }
   @media (max-width: 480px) {
     width: 100vw;
@@ -56,7 +55,7 @@ export const LeftContainer = styled.div`
     height: 100px;
     align-items: center;
     justify-content: center;
-    padding-right: 150px;
+    padding-right: 550px;
   }
   @media (max-width: 1300px) {
     width: 100vw;
