@@ -12,7 +12,7 @@ export const TopContainer = styled.div`
     padding-bottom: 90px;
     justify-content: space-between;
     align-items: space-between;
-    height: 150px;
+    height: 250px;
     width: 100vw;
     padding-left: 0px;
   }
@@ -21,7 +21,7 @@ export const TopContainer = styled.div`
     padding-bottom: 90px;
     justify-content: space-between;
     align-items: space-between;
-    height: 150px;
+    height: 250px;
     width: 100vw;
     padding-left: 0px;
   }
