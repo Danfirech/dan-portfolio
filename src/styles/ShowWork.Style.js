@@ -92,7 +92,7 @@ export const Width2 = styled.div`
     weight: 100vw;
     padding-right: 0px;
     padding-left: 0px;
-    height: 1980px;
+    height: 1580px;
   }
   @media (max-width: 480px) {
     flex-direction: column;
@@ -101,7 +101,7 @@ export const Width2 = styled.div`
     weight: 100vw;
     padding-right: 0px;
     padding-left: 0px;
-    height: 1980px;
+    height: 1580px;
   }
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -110,7 +110,7 @@ export const Width2 = styled.div`
     weight: 100vw;
     padding-right: 0px;
     padding-left: 0px;
-    height: 1980px;
+    height: 1580px;
   }
 `;
 
