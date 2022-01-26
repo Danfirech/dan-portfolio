@@ -92,7 +92,16 @@ export const Width2 = styled.div`
     weight: 100vw;
     padding-right: 0px;
     padding-left: 0px;
-    height: 1680px;
+    height: 1980px;
+  }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    weight: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 1980px;
   }
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -101,7 +110,7 @@ export const Width2 = styled.div`
     weight: 100vw;
     padding-right: 0px;
     padding-left: 0px;
-    height: 1680px;
+    height: 1980px;
   }
 `;
 
@@ -170,7 +179,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 1930px;
+    padding-bottom: 1230px;
     height: 100px;
   }
   @media (max-width: 480px) {
@@ -178,7 +187,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 1930px;
+    padding-bottom: 1230px;
     height: 100px;
   }
   @media (max-width: 1000px) {
@@ -186,7 +195,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 1930px;
+    padding-bottom: 1230px;
     height: 100px;
   }
 `;
