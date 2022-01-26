@@ -11,7 +11,7 @@ export const FooterContainerTwo = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
-    padding-top: 1820px;
+    padding-top: 1620px;
   }
   @media (max-width: 480px) {
     flex-direction: column;
@@ -19,7 +19,7 @@ export const FooterContainerTwo = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
-    padding-top: 1820px;
+    padding-top: 1620px;
   }
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -27,7 +27,7 @@ export const FooterContainerTwo = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
-    padding-top: 1820px;
+    padding-top: 1620px;
   }
 `;
 
