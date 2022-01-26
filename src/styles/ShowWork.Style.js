@@ -179,7 +179,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 830px;
+    padding-bottom: 230px;
     height: 100px;
   }
   @media (max-width: 480px) {
@@ -187,7 +187,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 830px;
+    padding-bottom: 230px;
     height: 100px;
   }
   @media (max-width: 1000px) {
@@ -195,7 +195,7 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 830px;
+    padding-bottom: 230px;
     height: 100px;
   }
 `;
