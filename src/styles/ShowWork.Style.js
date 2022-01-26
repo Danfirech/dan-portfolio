@@ -160,14 +160,16 @@ export const BoxBottom = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 430px;
+    padding-bottom: 930px;
+    height: 100px;
   }
   @media (max-width: 1000px) {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-bottom: 430px;
+    padding-bottom: 930px;
+    height: 100px;
   }
 `;
 
