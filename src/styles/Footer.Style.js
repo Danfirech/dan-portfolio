@@ -69,6 +69,7 @@ export const FooterCenterContainer = styled.div`
   justify-content: space-between;
   padding-left: 170px;
   padding-right: 170px;
+  z-index: 99;
   @media (max-width: 390px) {
     width: 100vw;
     align-items: center;
@@ -76,6 +77,7 @@ export const FooterCenterContainer = styled.div`
     height: 33.3%;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 99;
   }
   @media (max-width: 480px) {
     width: 100vw;
@@ -84,6 +86,7 @@ export const FooterCenterContainer = styled.div`
     height: 33.3%;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 99;
   }
   @media (max-width: 1300px) {
     width: 100vw;
@@ -92,6 +95,7 @@ export const FooterCenterContainer = styled.div`
     height: 33.3%;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 99;
   }
 `;
 

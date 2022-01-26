@@ -157,6 +157,7 @@ export const TextBoxOne = styled.div`
     justify-content: center;
     flex-direction: column;
     font-family: "Quicksand";
+    margin-left: 0px;
   }
   @media (max-width: 480px) {
     padding-top: 1200px;
@@ -164,6 +165,7 @@ export const TextBoxOne = styled.div`
     justify-content: center;
     flex-direction: column;
     font-family: "Quicksand";
+    margin-left: 0px;
   }
   @media (max-width: 1300px) {
     padding-top: 1200px;
@@ -171,5 +173,6 @@ export const TextBoxOne = styled.div`
     justify-content: center;
     flex-direction: column;
     font-family: "Quicksand";
+    margin-left: 0px;
   }
 `;
