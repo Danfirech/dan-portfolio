@@ -101,4 +101,5 @@ export const WorkbarLink = styled(Link)`
   border: solid;
   height: 30px;
   padding: 5px;
+  z-index: 99;
 `;
