@@ -11,6 +11,7 @@ export const FooterContainer = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
   }
   @media (max-width: 480px) {
     flex-direction: column;
@@ -18,6 +19,7 @@ export const FooterContainer = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
   }
   @media (max-width: 1300px) {
     flex-direction: column;
@@ -25,6 +27,7 @@ export const FooterContainer = styled.div`
     width: 100vw;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
   }
 `;
 
