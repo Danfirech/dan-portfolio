@@ -133,8 +133,18 @@ export const BoxMiddle = styled.div`
     width: 60vw;
     padding-right: 0px;
     padding-left: 80px;
-    height: 300px;
+    height: 200px;
   }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    padding-right: 0px;
+    padding-left: 80px;
+    height: 200px;
+  }
+
   @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
@@ -142,7 +152,7 @@ export const BoxMiddle = styled.div`
     width: 60vw;
     padding-right: 0px;
     padding-left: 80px;
-    height: 300px;
+    height: 200px;
   }
 `;
 
@@ -156,6 +166,14 @@ export const BoxBottom = styled.div`
   justify-content: center;
   padding-top: 20px;
   @media (max-width: 390px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 930px;
+    height: 100px;
+  }
+  @media (max-width: 480px) {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -179,6 +197,16 @@ export const BoxContain = styled.div`
   width: 200px;
   flex-direction: column;
   @media (max-width: 390px) {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 300px;
+    height: 300px;
+  }
+  @media (max-width: 480px) {
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
@@ -251,6 +279,15 @@ export const ProjectPic = styled.div`
   width: 200px;
   border-width: 2px;
   @media (max-width: 390px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+  @media (max-width: 480px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
